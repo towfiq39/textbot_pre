@@ -12,7 +12,9 @@
 .navbar-nav {
     margin-left: auto!important;
 }
-
+.toggler_button{
+  color: white !important;
+}
 
 .custom_navbar .navbar .nav-link ,.custom_navbar .navbar-brand{
   color: white;

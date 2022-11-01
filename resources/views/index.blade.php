@@ -37,7 +37,7 @@
 				<div class="new_section my-5 container-fluid">
 					<div class="container">
 						<h3 class="text-center pt-5">ACADEMIC FILE</h3>
-						<div class="row justify-content-center p-5">
+						<div class="row justify-content-center p-5" id="academic">
 							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
 								<div class="card text-center py-5">
 									
@@ -93,7 +93,7 @@
 				<div class="new_section  my-5 container-fluid">
 					<div class="container">
 						<h3 class="text-center pt-5">EXPLORE</h3>
-						<div class="row justify-content-center p-5">
+						<div class="row justify-content-center p-5" id="explore">
 							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
 								<div class="card text-center py-5">
 									
