@@ -1,0 +1,502 @@
+.section{
+  background-image: url("../image/bg.png");
+  background-size: 100% 100%;
+  height: 100vh;
+
+}
+.custom_navbar{
+  background: rgba(2, 1, 34, 0.5);
+  box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-nav {
+    margin-left: auto!important;
+}
+
+
+.custom_navbar .navbar .nav-link ,.custom_navbar .navbar-brand{
+  color: white;
+}
+.green{
+  color: #01B041 !important;
+
+}
+.login{
+  border: 2px solid #01B041;
+border-radius: 30px;
+padding-top: 0px !important;
+padding-bottom: 0px !important;
+margin-top: 7px;
+
+}
+.signup{
+  background: #01B041;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.58);
+  border-radius: 30px;
+  padding-top: 0px !important;
+padding-bottom: 0px !important;
+margin-top: 9px;
+}
+.body_text h1{
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+
+  color: #FFFFFF;
+
+  text-shadow: 1px 1px 15px rgba(255, 255, 255, 0.5);
+}
+.body_text h3{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+
+  text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.5);
+}
+.body_text h3 .tex{
+    color: #1CDB24
+}
+.body_text h3 .bot{
+    color:#AED42D
+}
+.body_text h1 .academic_resource{
+    color:#FFDC00;
+    line-height: 60px;
+}
+.body_text button{
+  background: transparent;
+  border: 1px solid #FFDC00;
+  filter: drop-shadow(2px 2px 10px #FAFF00);
+  border-radius: 5px;
+  line-height: 22px;
+}
+.body_text button span{
+  color: #FFFFFF;
+  padding: 1px;
+
+  text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.5);
+}
+.section_body{
+  margin-top: 160px;
+}
+.new_section{
+
+background: linear-gradient(180deg, #353A40 0%, #16171B 100%);
+border-radius: 10px;
+}
+.new_section h3{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #1CDB24;
+
+  text-shadow: 0px 0px 4px #5E717B;
+}
+.new_section .card{
+  background: #303234;
+box-shadow: 7px 7px 16px rgba(0, 0, 0, 0.4), -3px -3px 16px rgba(73, 73, 73, 0.3);
+border-radius: 10px;
+height: auto;
+width: 17rem;
+}
+
+.card .card-body p{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #FFFFFF;
+  margin-top: 150px;
+  text-shadow: 0px 0px 4px #5E717B;
+}
+.share_link_home{
+ background: rgb(1,176,65);
+ background: linear-gradient(180deg, rgba(1,176,65,1) 74%, rgba(136,201,70,1) 100%);
+  border-radius: 5px;
+  width: 700px;
+  height: 200px;
+  margin-top: 160px;
+}
+.share_link_home img{
+  margin-top: -130px;
+}
+.share_link_section h2{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 36px;
+  align-items: center;
+  margin-top: 15px;
+  color: #FFFFFF;
+
+  text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.5);
+}
+.share_link_section{
+  text-align: right !important;
+  margin-top: 30px;
+}
+.share_link_section p{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  align-items: center;
+  margin-top: 15px;
+  color: #FFFFFF;
+
+  text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.5);
+}
+.share_link_section button{
+  border-radius:5px;
+  border: 1px solid white;
+
+    box-shadow: 2px 1px 5px white;
+}
+.share_link_section span{
+  font-weight: 700;
+  
+  letter-spacing: 0.02em;
+  color: #1CDB24;
+      
+}
+
+.footer_section .footer_h4{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  display: flex;
+  margin-bottom: 17px;
+  align-items: center;
+  text-align: justify;
+
+  color: #1CDB24;
+}
+.align_right h4{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  align-items: right;
+  margin-bottom: 17px;
+  color: #1CDB24;
+}
+
+.footer_section a{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #736E6A;
+  text-decoration: none;
+}
+
+.footer_section .footer_mail_p{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  
+
+  color: #CEDBDC;
+}
+.align_right{
+  text-align: right !important;
+ 
+}
+.align_right p ,.footer_last_section{
+  font-weight: 500;
+  font-size: 12px;
+  color: #736E6A;
+}
+.align_right .text_box{
+  text-align: right !important;
+}
+.align_right .footer_submit_button{
+
+  background: #1CDB24;
+  box-shadow: inset -2px -2px 4px rgb(255 255 255 / 25%), inset 2px 3px 4px rgb(255 255 255 / 42%);
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  border: 1px solid #11e547;
+  box-shadow: 2px 1px 5px #ffffff;
+}
+.footer_icon {
+  background: #1CDB24;
+  border-radius: 50%;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 3px;
+}
+.footer_last_section hr{
+  border: 1px solid #01B041;
+  color: #01B041;
+}
+/*slide page */
+.slide_top_section{
+  background-image: url("../image/bg.png");
+  background-size: cover;
+  height: 72px;
+}
+.slide_section{
+  background: linear-gradient(180deg, #353A40 0%, #16171B 100%);
+      border-radius: 10px;
+  
+}
+.slide_section h3{
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 43px;
+      letter-spacing: 0.02em;
+      color: #1CDB24;
+      text-shadow: 0px 0px 4px #5e717b;
+}
+.slide .card{
+  background: #303234;
+box-shadow: 7px 7px 16px rgba(0, 0, 0, 0.4), -3px -3px 16px rgba(73, 73, 73, 0.3);
+border-radius: 10px;
+height: auto;
+}
+.card-body .button{
+  background-color: transparent;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  border: none;
+  color: #FFFFFF;
+  box-shadow: -1px 2px 4px #5E717B;
+}
+   
+/* help page */
+.custom_form .form{
+  background: #303234;
+      box-shadow: 7px 7px 16px rgb(0 0 0 / 40%), -3px -3px 16px rgb(73 73 73 / 30%);
+      border-radius: 10px;
+      height: auto;
+}
+.custom_form .form label{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+
+  color: #FFFFFF;
+}
+.custom_form .form h3{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+.custom_form .form .form_submit_button{
+  background: #01B041;
+  box-shadow: -2px -3px 4px rgba(0, 0, 0, 0.42), inset -2px -2px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 8px;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.custom_form .outer_form_div{
+  background: #2C2F33;
+  box-shadow: inset -6.22302px -6.22302px 6.22302px #3B4451, inset 3.73381px 3.73381px 6.22302px #000000;
+  border-radius: 12.446px;
+}
+
+/* about-us page */
+
+.slide_section .card .card-body .name{
+  background: linear-gradient(108.3deg, #00FFFF 35.92%, #0395FF 89.13%);
+  box-shadow: inset 5px 4px 6px #3F6FEA;
+  border-radius: 500px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #303234;
+
+  text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.25);
+}
+.slide_section .card .card-body .position{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 0px 4px #5E717B;
+}
+
+/* sign-in page */
+
+
+.sign_in_section .form label{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+
+  color: #FFFFFF;
+}
+.sign_in_section .sign_in_input{
+  background: #FFFFFF;
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+}
+.button input{
+  background: linear-gradient(180deg, #01B041 0%, #8DC944 100%);
+  box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.54), inset 0px 2px 4px rgba(0, 0, 0, 0.42);
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: #FFFFFF;
+
+}
+.form_text a , .sign_in_heading a{
+  font-weight: 600;
+  font-size: 15px;
+  
+  color: #1CDB24;
+}
+.form_text p , .sign_in_heading p{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: #FFFFFF;
+}
+.sign_in_heading h2{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+ 
+  color: #1CDB24;
+}
+
+.last_para p{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  text-align: left;
+
+  color: #FFFFFF;
+
+}
+.sign_in_custom_image img{
+  margin-top: 174px;
+}
+
+/* profile page */
+.slide_section .card .card-body .roll{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 0px 4px #5E717B;
+}
+
+/* under construction */
+.under_construction .construction_p{
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.02em;
+
+  color: #FDFDFD;
+
+  text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.25);
+}
+
+
+/* student profile */
+.profile_section{
+  background-image: url("../image/996730 1.png");
+  background-size: 100% 100%;
+  height: 100vh;
+
+}
+.profile_section .student_name{
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #FDFDFD;
+
+  text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.25);
+}
+.profile_section .profile_pic{
+
+  border-radius: 50%;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.profile_button_text a{
+  background: linear-gradient(108.3deg, #00FFFF 23.49%, #0395FF 76.7%);
+  box-shadow: inset 5px 4px 6px #3F6FEA;
+  border-radius: 40px;
+}
+.profile_inner_section{
+
+background: linear-gradient(180deg, #353A40 0%, #16171B 100%);
+border-radius: 10px;
+}
+.profile_inner_section .card{
+    background: #303234;
+  box-shadow: 7px 7px 16px rgba(0, 0, 0, 0.4), -3px -3px 16px rgba(73, 73, 73, 0.3);
+  border-radius: 10px;
+  height: auto;
+}
+.profile_inner_section .user_details{
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  border-radius: 30px;
+}
+.profile_inner_section p{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  
+ letter-spacing: 0.02em;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 0px 4px #5E717B;
+}
