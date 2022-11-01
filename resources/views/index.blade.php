@@ -38,7 +38,7 @@
 					<div class="container">
 						<h3 class="text-center pt-5">ACADEMIC FILE</h3>
 						<div class="row justify-content-center p-5">
-							<div class="col-xl-3 col-lg-3 col-md-6 col-sm-11 my-1">
+							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
 								<div class="card text-center py-5">
 									
 									<span class="">
@@ -50,7 +50,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-xl-4 col-lg-3 col-md-6 col-sm-11 my-1">
+							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
 								<div class="card text-center py-5">
 									
 									<span class="">
@@ -62,7 +62,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-xl-4 col-lg-3 col-md-6 col-sm-11 my-1">
+							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
 								<div class="card text-center py-5">
 									
 									<span class="">
@@ -75,7 +75,7 @@
 								</div>
 							</div>
 							
-							<div class="col-xl-4 col-lg-3 col-md-6 col-sm-11 my-1">
+							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
 								<div class="card text-center py-5">
 									
 									<span class="">
@@ -148,10 +148,10 @@
 				</div>
 				<div class="container share_link_home">
 					<div class="row mt-3 justify-content-around">
-						<div class="col-lg-2 ">
+						<div class="col-lg-2 col-md-2  col-sm-10">
 							<img src="assets/image/person.png"  alt="">
 						</div>
-						<div class="col-lg-4 ">
+						<div class="col-lg-4 col-md-6 col-sm-12">
 							<div class="share_link_section">
 								<h2 class="text-right">SHARE YOUR DRIVE LINK HERE</h2>
 								<p class="text-right">YOUR CONTRIBUTION IS MUCH APPRICIATED</p>
@@ -170,40 +170,40 @@
 				<section class="footer_section">
 					<div class="mt-5 container">
 						<div class="row">
-							<div class="col-lg-9">
+							<div class="col-lg-9 col-md-12 col-sm-11">
 								<div class="row justify-content-around">
-									<div class="col-lg-2">
+									<div class="col-lg-2 col-md-2 col-sm-11">
 										<h4 class="footer_h4">ABOUT</h4>
 										<a href="">About Us</a>
 										<a href="">Career</a>
 										<a href="">Help</a>
 									</div>
-									<div class="col-lg-3 footer_kuet_center">
+									<div class="col-lg-3 col-md-3 col-sm-11 footer_kuet_center">
 										<h4 class="footer_h4">Contact</h4>
 										<a href="">Khulna University of Engineering and Technology (KUET)</a>
 										<p class="footer_mail_p">kuet.texbot@gmail.com</p>
 									</div>
-									<div class="col-lg-3">
+									<div class="col-lg-3 col-md-3 col-sm-11">
 										<h4 class="footer_h4">Socials</h4>
-										<div class="row">
-											<div class="col-lg-2">
+										<div class="row justify-content-center">
+											<div class="col-lg-2 col-md-2 col-sm-2">
 												<i class="footer_icon fa-brands fa-facebook"></i> <br>
 												<i class="footer_icon fa-brands fa-telegram"></i>
 											</div>
-											<div class="col-lg-10">
+											<div class="col-lg-10 col-md-10 col-sm-8">
 												<a href="">Facebook</a>
 												<a href="">Telegram</a>
 											</div>
 										</div>
 										
 									</div>
-									<div class="col-lg-3">
+									<div class="col-lg-3 col-md-3 col-sm-11">
 										<h4 class="footer_h4">Our App <small>(Coming Soon)</small></h4>
 										<img src="assets/image/pngegg 2.png" class="img-fluid" alt="">
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-3 align_right">
+							<div class="col-lg-3 col-md-12 col-sm-11 align_right">
 								<h4 class="">Join Us</h4>
 								<input type="text" class="text_box form-control my-2" placeholder="Upload Your Resume Here">
 								
