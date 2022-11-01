@@ -24,7 +24,7 @@
 						
 					</div>
 					<div class="col-lg-1"></div>
-					<div class="col-lg-2 custom_image pl-3">
+					<div class="col-lg-2 col-md-2 col-sm-1 custom_image pl-3">
 						<img src="assets/image/Picture1.png" class="img-fluid" alt="">
 					</div>
 				</div>

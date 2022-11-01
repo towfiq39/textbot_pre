@@ -7,10 +7,10 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav">
 							<li class="nav-item px-4">
-								<a class="nav-link" href="#">Home </a>
+								<a class="nav-link" href="{{ route('index') }}">Home </a>
 							</li>
 							<li class="nav-item px-4">
-								<a class="nav-link" href="#">File</a>
+								<a class="nav-link" href="{{ route('login') }}">File</a>
 							</li>
 							<li class="nav-item px-4">
 								<a class="nav-link" href="#">Explore</a>

@@ -17,21 +17,21 @@
 					<span class="navbar-toggler-icon"></span>
 					</button>
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav">
+					<ul class="navbar-nav">
 							<li class="nav-item px-4">
-								<a class="nav-link" href="#">Home </a>
+								<a class="nav-link" href="/index.html">Home </a>
 							</li>
 							<li class="nav-item px-4">
-								<a class="nav-link" href="#">File</a>
+								<a class="nav-link" href="#file">File</a>
 							</li>
 							<li class="nav-item px-4">
-								<a class="nav-link" href="#">Explore</a>
+								<a class="nav-link" href="#explore">Explore</a>
 							</li>
 							<li class="nav-item px-4">
-								<a class="nav-link" href="#">Help</a>
+								<a class="nav-link" href="/help.html">Help</a>
 							</li>
 							<li class="nav-item px-4">
-								<a class="nav-link" href="#">Submit</a>
+								<a class="nav-link" href="/under-construction.html">Submit</a>
 							</li>
 							<li class="nav-item px-4">
 								<span class="nav-link green">|</span>
