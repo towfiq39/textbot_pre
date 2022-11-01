@@ -86,4 +86,5 @@ class HomeController extends Controller
         $user=Auth::user();
         return view('student_profile',compact('user'));
     }
+    
 }
