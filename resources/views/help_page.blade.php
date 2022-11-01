@@ -74,7 +74,7 @@
 					<div class="container p-5">
 						<div class="row justify-content-around">
 							
-							<div class="col-lg-5">
+							<div class="col-lg-5 col-md-6 col-sm-10 my-1">
 								<div class="card text-center py-5">
 									
 									<span class="card_image">
@@ -92,7 +92,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-5">
+							<div class="col-lg-5 col-md-6 col-sm-10 my-1">
 								<div class="card text-center py-5">
 									
 									<span class="card_image">
