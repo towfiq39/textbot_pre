@@ -10,43 +10,8 @@
 	</head>
 	<body>
 		<section class="section">
-			<div class=" custom_navbar">
-				<nav class="container navbar navbar-expand-lg navbar-light">
-					<a class="navbar-brand" href="#"><img src="assets/image/Picture2 1.png" class="img-fluid" alt=""></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav">
-							<li class="nav-item px-4">
-								<a class="nav-link" href="#">Home </a>
-							</li>
-							<li class="nav-item px-4">
-								<a class="nav-link" href="#">File</a>
-							</li>
-							<li class="nav-item px-4">
-								<a class="nav-link" href="#">Explore</a>
-							</li>
-							<li class="nav-item px-4">
-								<a class="nav-link" href="{{ route('help') }}">Help</a>
-							</li>
-							<li class="nav-item px-4">
-								<a class="nav-link" href="{{ route('submit') }}">Submit</a>
-							</li>
-							<li class="nav-item px-4">
-								<span class="nav-link green">|</span>
-							</li>
-							<li class="nav-item px-4 ">
-								<a class="nav-link login " href="{{ route('login') }}">LOGIN</a>
-							</li>
-							<li class="nav-item px-4">
-								<a class="nav-link signup" href="{{ route('register') }}">SIGN UP</a>
-							</li>
-							
-						</ul>
-					</div>
-				</nav>
-			</div>
+			
+			@include('include/navbar')
 			<section class="section_body container-fluid">
 				
 				
@@ -73,7 +38,7 @@
 					<div class="container">
 						<h3 class="text-center pt-5">ACADEMIC FILE</h3>
 						<div class="row justify-content-center p-5">
-							<div class="col-lg-3">
+							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
 								<div class="card text-center py-5">
 									
 									<span class="">
@@ -85,7 +50,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-3">
+							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
 								<div class="card text-center py-5">
 									
 									<span class="">
@@ -97,7 +62,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-3">
+							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
 								<div class="card text-center py-5">
 									
 									<span class="">
@@ -110,7 +75,7 @@
 								</div>
 							</div>
 							
-							<div class="col-lg-3">
+							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
 								<div class="card text-center py-5">
 									
 									<span class="">
@@ -129,7 +94,7 @@
 					<div class="container">
 						<h3 class="text-center pt-5">EXPLORE</h3>
 						<div class="row justify-content-center p-5">
-							<div class="col-lg-3">
+							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
 								<div class="card text-center py-5">
 									
 									<span class="">
@@ -141,7 +106,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-3">
+							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
 								<div class="card text-center py-5">
 									
 									<span class="">
@@ -153,7 +118,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-3">
+							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
 								<div class="card text-center py-5">
 									
 									<span class="">
@@ -166,7 +131,7 @@
 								</div>
 							</div>
 							
-							<div class="col-lg-3">
+							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
 								<div class="card text-center py-5">
 									
 									<span class="">
@@ -183,10 +148,10 @@
 				</div>
 				<div class="container share_link_home">
 					<div class="row mt-3 justify-content-around">
-						<div class="col-lg-2 ">
+						<div class="col-lg-2 col-md-2  col-sm-10">
 							<img src="assets/image/person.png"  alt="">
 						</div>
-						<div class="col-lg-4 ">
+						<div class="col-lg-4 col-md-6 col-sm-12">
 							<div class="share_link_section">
 								<h2 class="text-right">SHARE YOUR DRIVE LINK HERE</h2>
 								<p class="text-right">YOUR CONTRIBUTION IS MUCH APPRICIATED</p>
@@ -205,40 +170,40 @@
 				<section class="footer_section">
 					<div class="mt-5 container">
 						<div class="row">
-							<div class="col-lg-9">
+							<div class="col-lg-9 col-md-12 col-sm-11">
 								<div class="row justify-content-around">
-									<div class="col-lg-2">
+									<div class="col-lg-2 col-md-2 col-sm-11">
 										<h4 class="footer_h4">ABOUT</h4>
 										<a href="">About Us</a>
 										<a href="">Career</a>
 										<a href="">Help</a>
 									</div>
-									<div class="col-lg-3 footer_kuet_center">
+									<div class="col-lg-3 col-md-3 col-sm-11 footer_kuet_center">
 										<h4 class="footer_h4">Contact</h4>
 										<a href="">Khulna University of Engineering and Technology (KUET)</a>
 										<p class="footer_mail_p">kuet.texbot@gmail.com</p>
 									</div>
-									<div class="col-lg-3">
+									<div class="col-lg-3 col-md-3 col-sm-11">
 										<h4 class="footer_h4">Socials</h4>
-										<div class="row">
-											<div class="col-lg-2">
+										<div class="row justify-content-center">
+											<div class="col-lg-2 col-md-2 col-sm-2">
 												<i class="footer_icon fa-brands fa-facebook"></i> <br>
 												<i class="footer_icon fa-brands fa-telegram"></i>
 											</div>
-											<div class="col-lg-10">
+											<div class="col-lg-10 col-md-10 col-sm-8">
 												<a href="">Facebook</a>
 												<a href="">Telegram</a>
 											</div>
 										</div>
 										
 									</div>
-									<div class="col-lg-3">
+									<div class="col-lg-3 col-md-3 col-sm-11">
 										<h4 class="footer_h4">Our App <small>(Coming Soon)</small></h4>
 										<img src="assets/image/pngegg 2.png" class="img-fluid" alt="">
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-3 align_right">
+							<div class="col-lg-3 col-md-12 col-sm-11 align_right">
 								<h4 class="">Join Us</h4>
 								<input type="text" class="text_box form-control my-2" placeholder="Upload Your Resume Here">
 								

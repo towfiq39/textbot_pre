@@ -11,46 +11,46 @@
 	<body>
 		<section class="profile_section">
 			<div class=" custom_navbar">
-							<nav class="container navbar navbar-expand-lg navbar-light">
-								<a class="navbar-brand" href="#"><img src="assets/image/Picture2 1.png" class="img-fluid" alt=""></a>
-								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-								<span class="navbar-toggler-icon"></span>
-								</button>
-								<div class="collapse navbar-collapse" id="navbarSupportedContent">
-									<ul class="navbar-nav">
-										<li class="nav-item px-4">
-											<a class="nav-link" href="#">Home </a>
-										</li>
-										<li class="nav-item px-4">
-											<a class="nav-link" href="#">File</a>
-										</li>
-										<li class="nav-item px-4">
-											<a class="nav-link" href="#">Explore</a>
-										</li>
-										<li class="nav-item px-4">
-											<a class="nav-link" href="#">Help</a>
-										</li>
-										<li class="nav-item px-4">
-											<a class="nav-link" href="#">Submit</a>
-										</li>
-										<li class="nav-item px-4">
-											<span class="nav-link green">|</span>
-										</li>
-										<li class="nav-item px-4 ">
-											<a class="nav-link " href="{{ route('view_update_profile') }}"><img src="assets/image/Group 190.png" alt=""></a>
-										</li>
-										<li class="nav-item px-4">
-											<a class="nav-link signup" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">LOG OUT</a>
-											<form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-												@csrf
-												<input type="submit" value="logout">
-											</form>
-										</li>
-										
-									</ul>
-								</div>
-							</nav>
-						</div>
+				<nav class="container navbar navbar-expand-lg navbar-light">
+					<a class="navbar-brand" href="#"><img src="assets/image/Picture2 1.png" class="img-fluid" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav">
+							<li class="nav-item px-4">
+								<a class="nav-link" href="#">Home </a>
+							</li>
+							<li class="nav-item px-4">
+								<a class="nav-link" href="#">File</a>
+							</li>
+							<li class="nav-item px-4">
+								<a class="nav-link" href="#">Explore</a>
+							</li>
+							<li class="nav-item px-4">
+								<a class="nav-link" href="#">Help</a>
+							</li>
+							<li class="nav-item px-4">
+								<a class="nav-link" href="#">Submit</a>
+							</li>
+							<li class="nav-item px-4">
+								<span class="nav-link green">|</span>
+							</li>
+							<li class="nav-item px-4 ">
+								<a class="nav-link " href="{{ route('view_update_profile') }}"><img src="assets/image/Group 190.png" alt=""></a>
+							</li>
+							<li class="nav-item px-4">
+								<a class="nav-link signup" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">LOG OUT</a>
+								<form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+									@csrf
+									<input type="submit" value="logout">
+								</form>
+							</li>
+							
+						</ul>
+					</div>
+				</nav>
+			</div>
 			{{-- <section class="section_body container-fluid">
 				
 				
@@ -61,7 +61,7 @@
 				</div>
 				<div class="row justify-content-center py-5">
 					
-					 <div class="col-lg-3">
+					<div class="col-lg-3">
 						<img src="{{ asset('profile/'.$user->profile_picture) }} " width="350" height="350" class="p-3 bg-dark profile_pic" alt="">
 					</div>
 					
@@ -83,10 +83,9 @@
 										<table class="table">
 											<form method="POST" action="{{ route('update_profile')}}" enctype="multipart/form-data">
 												@csrf
-
 												<div class="form-group my-3">
 													<label for="exampleInputEmail1">User Name</label>
-													<input type="text" name="User_Name" class="form-control"  placeholder="Enter user name" 
+													<input type="text" name="User_Name" class="form-control"  placeholder="Enter user name"
 													value="<?php if(isset($user->user_name)){echo $user->user_name; } ?>">
 													
 												</div>
@@ -111,7 +110,6 @@
 													<label for="exampleInputEmail1">Blood Group</label>
 													<select name="Blood_Group" class="form-control" >
 														<?php if(isset($user->blood_group)){ ?>
-
 														<option value='{{ $user->blood_group }}'>{{ $user->blood_group }}</option>
 														<?php } else {?>
 														<option>Select Blood Group</option>
@@ -160,7 +158,6 @@
 													<label for="exampleInputEmail1">Batch</label>
 													<select name="Batch" class="form-control" >
 														<?php if(isset($user->batch)){ ?>
-
 														<option value='{{ $user->batch }}'>{{ $user->batch }}</option>
 														<?php } else {?>
 														<option>Select Batch</option>
@@ -189,10 +186,8 @@
 												<div class="form-group my-3">
 													<label for="exampleInputEmail1">Department</label>
 													
-
 													<select name="Department" class="form-control" >
 														<?php if(isset($user->department)){ ?>
-
 														<option value='{{ $user->department }}'>{{ $user->department }}</option>
 														<?php } else {?>
 														<option>Select Batch</option>
@@ -215,7 +210,7 @@
 												@enderror
 												<div class="form-group my-3">
 													<label for="exampleInputEmail1">Institution</label>
-													<input type="text" name="Institute" class="form-control"  placeholder="Enter Institution Name " value="<?php if(isset($user->institution)){echo $user->institution; } ?>"> 
+													<input type="text" name="Institute" class="form-control"  placeholder="Enter Institution Name " value="<?php if(isset($user->institution)){echo $user->institution; } ?>">
 													
 												</div>
 												@error('Institute')
@@ -240,7 +235,6 @@
 													<input type="text" name="facebook_id" class="form-control"  placeholder="Enter facebook Link " value="<?php if(isset($user->facebook_id)){echo $user->facebook_id; } ?>">
 													
 												</div>
-
 												<div class="form-group my-3">
 													<label for="exampleInputEmail1">LinkedIn ID</label>
 													<input type="text" name="linkedin_id" class="form-control"  placeholder="Enter Linked In Link " value="<?php if(isset($user->linkedin_id)){echo $user->linkedin_id; } ?>">
@@ -274,7 +268,6 @@
 												
 												<button type="submit" class="btn btn-primary my-2">Update</button>
 											</form>
-
 										</table>
 									</div>
 								</div>
