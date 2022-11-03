@@ -1,13 +1,13 @@
 <div class=" custom_navbar">
 	<nav class="container navbar navbar-expand-lg navbar-light">
-		<a class="navbar-brand" href="#"><img src="assets/image/Picture2 1.png" class="img-fluid" alt=""></a>
+		<a class="navbar-brand" href="{{ route('index') }}"><img src="assets/image/Picture2 1.png" class="img-fluid" alt=""></a>
 		<button  class="navbar-toggler p-1"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		<i class="fa-solid fa-bars toggler_button"></i>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav">
 				<li class="nav-item px-4">
-					<a class="nav-link" href="#">Home </a>
+					<a class="nav-link" href="{{ route('index') }}">Home </a>
 				</li>
 				<li class="nav-item px-4">
 					<a class="nav-link" href="#academic">File</a>

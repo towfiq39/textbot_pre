@@ -13,9 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+// Route::get('/', function () {
+//     return view('index');
+// });
+Route::get('/', [App\Http\Controllers\PageController::class, 'front_page'])->name('index');
 
 Auth::routes();
 
@@ -27,4 +28,21 @@ Route::get('help', [App\Http\Controllers\PageController::class, 'help'])->name('
 
 //under construction
 Route::get('submit', [App\Http\Controllers\PageController::class, 'submit'])->name('submit');
+
+//batchprofile
+Route::get('batch-profile', [App\Http\Controllers\PageController::class, 'batch_profile'])->name('batch_profile');
+//slidepage
+Route::get('slide-page', [App\Http\Controllers\PageController::class, 'slide_page'])->name('slide_page');
+
+//notepage
+Route::get('notes-page', [App\Http\Controllers\PageController::class, 'notes_page'])->name('notes_page');
+
+//crdrives
+Route::get('recent-drive', [App\Http\Controllers\PageController::class, 'recent_drives_page'])->name('recent_drives_page');
+
+//under-construction
+Route::get('under-construction', [App\Http\Controllers\PageController::class, 'under_construction'])->name('under_construction');
+
+
+
 Route::post('update-profile', [App\Http\Controllers\HomeController::class, 'update_profile'])->name('update_profile');

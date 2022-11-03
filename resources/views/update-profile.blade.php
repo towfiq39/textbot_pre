@@ -12,7 +12,7 @@
 		<section class="profile_section">
 			<div class=" custom_navbar">
 				<nav class="container navbar navbar-expand-lg navbar-light">
-					<a class="navbar-brand" href="#"><img src="assets/image/Picture2 1.png" class="img-fluid" alt=""></a>
+					<a class="navbar-brand" href="{{ route('index') }}"><img src="assets/image/Picture2 1.png" class="img-fluid" alt=""></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 					</button>

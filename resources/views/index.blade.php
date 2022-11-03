@@ -39,6 +39,7 @@
 						<h3 class="text-center pt-5">ACADEMIC FILE</h3>
 						<div class="row justify-content-center p-5" id="academic">
 							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
+								<a href="{{ route('slide_page') }}">
 								<div class="card text-center py-5">
 									
 									<span class="">
@@ -49,8 +50,10 @@
 										<p class="card-text">SLIDES & BOOKS</p>
 									</div>
 								</div>
+							</a>
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
+								<a href="{{ route('notes_page') }}">
 								<div class="card text-center py-5">
 									
 									<span class="">
@@ -61,8 +64,10 @@
 										<p class="card-text">NOTES</p>
 									</div>
 								</div>
+							</a>
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
+								<a href="{{ route('recent_drives_page') }}">
 								<div class="card text-center py-5">
 									
 									<span class="">
@@ -73,9 +78,11 @@
 										<p class="card-text">RECENT DRIVES</p>
 									</div>
 								</div>
+							</a>
 							</div>
 							
 							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
+								<a href="{{ route('under_construction') }}">
 								<div class="card text-center py-5">
 									
 									<span class="">
@@ -86,6 +93,7 @@
 										<p class="card-text">OTHER DOCS</p>
 									</div>
 								</div>
+							</a>
 							</div>
 						</div>
 					</div>
@@ -94,19 +102,25 @@
 					<div class="container">
 						<h3 class="text-center pt-5">EXPLORE</h3>
 						<div class="row justify-content-center p-5" id="explore">
+							
 							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
-								<div class="card text-center py-5">
-									
-									<span class="">
-										<img class="img-fluid" src="assets/image/Group 1892.png" >
-									</span>
-									
-									<div class="card-body">
-										<p class="card-text">PROFILE</p>
+								<a href="{{ route('batch_profile') }}">
+									<div class="card text-center py-5">
+										
+										<span class="">
+											<img class="img-fluid" src="assets/image/Group 1892.png" >
+										</span>
+										
+										<div class="card-body">
+											<p class="card-text">PROFILE</p>
+										</div>
 									</div>
-								</div>
+								</a>
 							</div>
+							
+							
 							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
+								<a href="{{ route('under_construction') }}">
 								<div class="card text-center py-5">
 									
 									<span class="">
@@ -117,8 +131,10 @@
 										<p class="card-text">LIBRARY</p>
 									</div>
 								</div>
+							</a>
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
+								<a href="{{ route('under_construction') }}">
 								<div class="card text-center py-5">
 									
 									<span class="">
@@ -129,9 +145,11 @@
 										<p class="card-text">HIGHER STUDY </p>
 									</div>
 								</div>
+							</a>
 							</div>
 							
 							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
+								<a href="{{ route('under_construction') }}">
 								<div class="card text-center py-5">
 									
 									<span class="">
@@ -142,6 +160,7 @@
 										<p class="card-text">CLUBS & GROUPS</p>
 									</div>
 								</div>
+							</a>
 							</div>
 						</div>
 					</div>
