@@ -59,7 +59,7 @@ class HomeController extends Controller
                'user_name'=>$r->User_Name,
                'dob'=>$r->Date_of_Birth,
                'blood_group'=>$r->Blood_Group,
-               'certificate_name'=>$r->Certificate_Name,
+               'certificate_name'=>strtoupper($r->Certificate_Name),
                'roll_number'=>$r->Roll,
                'batch'=>$r->Batch,
                'department'=>$r->Department,

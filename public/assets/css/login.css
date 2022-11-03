@@ -502,3 +502,8 @@ border-radius: 10px;
 
   text-shadow: 0px 0px 4px #5E717B;
 }
+.profile_pic_student_list img {
+  background: radial-gradient(38.2% 50% at 50% 50%, #2E3134 0%, #292B2E 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  border: 1px solid #272829;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+}

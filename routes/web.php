@@ -40,6 +40,9 @@ Route::get('notes-page', [App\Http\Controllers\PageController::class, 'notes_pag
 //crdrives
 Route::get('recent-drive', [App\Http\Controllers\PageController::class, 'recent_drives_page'])->name('recent_drives_page');
 
+//student-list
+Route::get('student-list/{id}', [App\Http\Controllers\PageController::class, 'student_list'])->name('student_list');
+
 //under-construction
 Route::get('under-construction', [App\Http\Controllers\PageController::class, 'under_construction'])->name('under_construction');
 
