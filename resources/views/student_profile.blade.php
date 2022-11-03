@@ -10,47 +10,8 @@
 	</head>
 	<body>
 		<section class="profile_section">
-			<div class=" custom_navbar">
-				<nav class="container navbar navbar-expand-lg navbar-light">
-					<a class="navbar-brand" href="#"><img src="assets/image/Picture2 1.png" class="img-fluid" alt=""></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav">
-							<li class="nav-item px-4">
-								<a class="nav-link" href="/index.html">Home </a>
-							</li>
-							<li class="nav-item px-4">
-								<a class="nav-link" href="#file">File</a>
-							</li>
-							<li class="nav-item px-4">
-								<a class="nav-link" href="#explore">Explore</a>
-							</li>
-							<li class="nav-item px-4">
-								<a class="nav-link" href="/help.html">Help</a>
-							</li>
-							<li class="nav-item px-4">
-								<a class="nav-link" href="/under-construction.html">Submit</a>
-							</li>
-							<li class="nav-item px-4">
-								<span class="nav-link green">|</span>
-							</li>
-							<li class="nav-item px-4 ">
-								<a class="nav-link " href="{{ route('view_update_profile') }}"><img src="assets/image/Group 190.png" alt=""></a>
-							</li>
-							<li class="nav-item px-4">
-								<a class="nav-link signup" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">LOG OUT</a>
-								<form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-									@csrf
-									<input type="submit" value="logout">
-								</form>
-							</li>
-							
-						</ul>
-					</div>
-				</nav>
-			</div>
+						@include('include/navbar')
+
 			<section class="section_body container-fluid">
 				
 				
