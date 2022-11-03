@@ -65,9 +65,9 @@
 									
 									<div class="card-body">
 										<div class="first_row">
-											<a href=""><button class="button p-2 m-2">MEAL ON/OFF</button></a>
-											<a href=""><button class="button p-2 m-2">RENEW BOOKS</button></a>
-											<a href=""><button class="button p-2 m-2">COURSE REG</button></a> <br>
+											<a href="https://www.kuet.ac.bd/index.php/welcome/automation"><button class="button p-2 m-2">MEAL ON/OFF</button></a>
+											<a href="https://library.kuet.ac.bd/"><button class="button p-2 m-2">RENEW BOOKS</button></a>
+											<a href="https://academic.kuet.ac.bd/"><button class="button p-2 m-2">COURSE REG</button></a> <br>
 											<p class="card-text mt-5">AUTOMATION</p>
 										</div>
 										<div class="second_row"></div>
