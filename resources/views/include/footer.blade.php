@@ -10,12 +10,12 @@
 									<div class="col-lg-2 col-md-2 col-sm-11">
 										<h4 class="footer_h4">ABOUT</h4>
 										<a href="{{ route('about_us') }}">About Us</a>
-										<a href="">Career</a>
-										<a href="">Help</a>
+										<a href="{{ route('under_construction') }}">Career</a>
+										<a href="{{ route('help') }}">Help</a>
 									</div>
 									<div class="col-lg-3 col-md-3 col-sm-11 footer_kuet_center">
 										<h4 class="footer_h4">Contact</h4>
-										<a href="">Khulna University of Engineering and Technology (KUET)</a>
+										<a href="https://www.kuet.ac.bd/">Khulna University of Engineering and Technology (KUET)</a>
 										<p class="footer_mail_p">kuet.texbot@gmail.com</p>
 									</div>
 									<div class="col-lg-3 col-md-3 col-sm-11">
