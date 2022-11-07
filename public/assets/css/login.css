@@ -419,6 +419,12 @@ height: auto;
   margin-top: 174px;
 }
 
+@media screen and (max-width: 580px) {
+  .custom_image{
+    transform: scale(.2);
+  }
+}
+
 /* profile page */
 .slide_section .card .card-body .roll{
   font-weight: 700;
