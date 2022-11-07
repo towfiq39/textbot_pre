@@ -19,7 +19,7 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav">
 							<li class="nav-item px-4">
-								<a class="nav-link" href="#">Home </a>
+								<a class="nav-link" href="{{ route('home') }}">Home </a>
 							</li>
 							<li class="nav-item px-4">
 								<a class="nav-link" href="#">File</a>
@@ -172,6 +172,7 @@
 														<option value="2k19">2k19</option>
 														<option value="2k20">2k20</option>
 														<option value="2k21">2k21</option>
+														<option value="2k22">2k22</option>
 														
 														<?php } ?>
 													</select>

@@ -83,13 +83,13 @@
 				
 				
 				<div class="row justify-content-around py-5">
-					<div class="col-lg-3">
+					<div class="col-lg-3 col-md-3 col-sm-10">
 						<h1 class="student_name">@ {{ $user->user_name }}</h1>
 					</div>
 				</div>
 				<div class="row justify-content-center py-5">
 					
-					<div class="col-lg-3">
+					<div class="col-lg-3 col-md-3 col-sm-10">
 						<img src="{{ asset('profile/'.$user->profile_picture) }} " width="350" height="350" class="p-3 bg-dark profile_pic" alt="">
 					</div>
 					
