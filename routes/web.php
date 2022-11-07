@@ -46,6 +46,9 @@ Route::get('student-list/{id}', [App\Http\Controllers\PageController::class, 'st
 //under-construction
 Route::get('under-construction', [App\Http\Controllers\PageController::class, 'under_construction'])->name('under_construction');
 
+//about us
+Route::get('about-us', [App\Http\Controllers\PageController::class, 'about_us'])->name('about_us');
+
 
 
 Route::post('update-profile', [App\Http\Controllers\HomeController::class, 'update_profile'])->name('update_profile');

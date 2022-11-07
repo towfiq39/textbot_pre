@@ -28,8 +28,9 @@ class PageController extends Controller
     public function student_list($id)
     {
         $data=DB::table('users')->where('batch',$id)->get();
+        //return $id;
         //return $data;
-        return view('student-list',compact('data'));
+        return view('student-list',compact('data','id'));
     }
     public function slide_page()
     {
@@ -46,6 +47,10 @@ class PageController extends Controller
     public function under_construction()
     {
         return view('under_construction');
+    }
+    public function about_us()
+    {
+        return view('about-us');
     }
     
 }
