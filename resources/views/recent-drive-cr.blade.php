@@ -23,7 +23,7 @@
 									<div class="card text-center py-5">
 										
 										<span class="card_image">
-											<a href=""><img class="img-fluid" src="assets/image/1-1.png"></a>
+											<a href="https://drive.google.com/drive/u/1/folders/1Rx6_iX_vUGC76Yvh3takNZ843ixpriFz"><img class="img-fluid" src="assets/image/1-1.png"></a>
 										</span>
 										
 									</div>
@@ -32,7 +32,7 @@
 									<div class="card text-center py-5">
 										
 										<span class="card_image">
-											<img class="img-fluid" src="assets/image/1-2.png" >
+										<a href="https://drive.google.com/drive/folders/1A8v4c84bwsxeJhtOcHgmjPOLYVFFLIzF">	<img class="img-fluid" src="assets/image/1-2.png" > </a>
 										</span>
 										
 									</div>
@@ -49,7 +49,7 @@
 									<div class="card text-center py-5">
 										
 										<span class="card_image">
-											<img class="img-fluid" src="assets/image/2-1.png" >
+										<a href="https://drive.google.com/drive/folders/1j4BE88pKZiv9fClGzfCbWmT8ZwIIS7cv">  <img class="img-fluid" src="assets/image/2-1.png" ></a>
 										</span>
 										
 									</div>
@@ -58,7 +58,7 @@
 									<div class="card text-center py-5">
 										
 										<span class="card_image">
-											<img class="img-fluid" src="assets/image/2-2.png" >
+										<a href="https://drive.google.com/drive/u/0/folders/1JrzGDb0Bf1zuNgasT9MH7orKnEdIiktA">	<img class="img-fluid" src="assets/image/2-2.png" ></a>
 										</span>
 										
 									</div>
@@ -75,7 +75,7 @@
 									<div class="card text-center py-5">
 										
 										<span class="card_image">
-											<img class="img-fluid" src="assets/image/3-1.png" >
+										<a href="https://drive.google.com/drive/u/1/folders/1pgRZF1OgzAsygUnCBDbTbQK_pL0grcri"><img class="img-fluid" src="assets/image/3-1.png" ></a>
 										</span>
 										
 									</div>
@@ -84,7 +84,7 @@
 									<div class="card text-center py-5">
 										
 										<span class="card_image">
-											<img class="img-fluid" src="assets/image/3-2.png" >
+										<a href="https://drive.google.com/drive/folders/10fCWk6gk0-b74ssK8TrRBgAutmtWG7iq">	<img class="img-fluid" src="assets/image/3-2.png" ></a>
 										</span>
 										
 									</div>
@@ -101,7 +101,7 @@
 									<div class="card text-center py-5">
 										
 										<span class="card_image">
-											<img class="img-fluid" src="assets/image/4-1.png" >
+										<a href="https://drive.google.com/drive/folders/1vdAMklDL3-eOFOmHvD-DsmB47sCgrI9I">	<img class="img-fluid" src="assets/image/4-1.png" > </a>
 										</span>
 										
 									</div>
@@ -110,7 +110,7 @@
 									<div class="card text-center py-5">
 										
 										<span class="card_image">
-											<img class="img-fluid" src="assets/image/4-2.png" >
+										<a href="https://drive.google.com/drive/u/0/folders/1tSTFDWPkdJ7lJvxN_YTY7Y-iZbPux1Ql">	<img class="img-fluid" src="assets/image/4-2.png" ></a>
 										</span>
 										
 									</div>
