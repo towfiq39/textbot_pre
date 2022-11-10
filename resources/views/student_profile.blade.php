@@ -83,13 +83,13 @@
 				
 				
 				<div class="row justify-content-around py-5">
-					<div class="col-lg-3 col-md-3 col-sm-10">
+					<div class="col-lg-3 col-md-3 col-sm-12">
 						<h1 class="student_name">@ {{ $user->user_name }}</h1>
 					</div>
 				</div>
 				<div class="row justify-content-center py-5">
 					
-					<div class="col-lg-3 col-md-3 col-sm-10">
+					<div class="col-lg-3 col-md-3 col-sm-8">
 						<img src="{{ asset('profile/'.$user->profile_picture) }} " width="350" height="350" class="p-3 bg-dark profile_pic" alt="">
 					</div>
 					
@@ -196,21 +196,7 @@
 					</div>
 				</div>
 				
-				<div class="container share_link_home">
-					<div class="row mt-3 justify-content-around">
-						<div class="col-lg-2 ">
-							<img src="assets/image/person.png"  alt="">
-						</div>
-						<div class="col-lg-4 ">
-							<div class="share_link_section">
-								<h2 class="text-right">SHARE YOUR DRIVE LINK HERE</h2>
-								<p class="text-right">YOUR CONTRIBUTION IS MUCH APPRICIATED</p>
-								<button><span>SUBMIT</span></button>
-							</div>
-							
-						</div>
-					</div>
-				</div>
+				@include('include/share-slide')
 			</div>
 			
 			@include('include/footer')

@@ -3,8 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use app\models\user;
+use App\Models\user;
+use App\Models\Resume;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Stroage;
+
 
 class PageController extends Controller
 {
@@ -52,5 +56,86 @@ class PageController extends Controller
     {
         return view('about-us');
     }
+
+    //admin page
+    
+    public function admin_login()
+    {
+        return view('admin-login');
+    }
+    public function admin_profile()
+        {
+        if(session()->has('admin')){
+            $data=Resume::all();
+            return view('admin-profile',compact('data')); 
+        }else{
+            return redirect(route('admin_login'));
+        }
+            
+        }
+    public function admin_logout()
+        {
+        Session::flush();
+
+        
+        return redirect(route('index'));
+
+
+        }
+
+    public function admin_login_check(Request $r)
+    {
+        $data=DB::table('admins')->where('email',$r->email)->first();
+        if($data){
+            $admin_pass=$data->password;
+            $pass_decode = password_verify($r->password, $admin_pass);
+            if($pass_decode){
+                session()->put('admin', $r->email);
+
+                return redirect(route('admin_profile'));
+            }else{
+                return redirect(route('admin_login'))->with('msg','Please Enter Valid Password');
+            }
+        }else{
+            return redirect(route('admin_login'))->with('msg','Please Enter Valid Email');
+        }
+        
+    }
+
+
+
+     public function upload_resume(Request $r)
+        {
+
+            $r->validate([
+            
+            "resume" => "required|mimes:pdf|max:10000"
+            
+        ]);
+
+            $r->file('resume');
+            $file = $r->file('resume');
+                $extenstion = $file->getClientOriginalExtension();
+                $filename = time().'.'.$extenstion;
+                $file->move('resume', $filename);
+            $data=New Resume;
+            $data->resume=$filename;
+
+            $data->save();
+            return redirect(route('index'));
+        }
+     public function download_pdf(Request $r,$file)
+        {
+            //return response()->download(url('resume/'."1668081875.pdf"));
+            return response()->download(public_path('resume/'.$file));
+
+        }
+        public function delete_pdf(Request $r,$id)
+        {
+            $data=Resume::find($id);
+            $data->delete();
+            return redirect(route('admin_profile'));
+
+        }
     
 }

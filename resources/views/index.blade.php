@@ -20,7 +20,7 @@
 					<div class="col-lg-7 body_text">
 						<h3>KUET  <span class="px-2 tex"> TEX</span><span class='bot'>BOT</span></h3>
 						<h1>WE HELP YOU EXPLORE</h1>
-						<h1>THE <span class="academic_resource">ACADEMIC RESOURCES</span></h1>
+						<h1>THE <span class="academic_resource mx-2"> ACADEMIC RESOURCES</span></h1>
 						<button class="mt-5"><span>MORE ABOUT US</span></button>
 						
 					</div>
@@ -165,21 +165,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="container share_link_home">
-					<div class="row mt-3 justify-content-around">
-						<div class="col-lg-2 col-md-2  col-sm-10">
-							<img src="assets/image/person.png"  alt="">
-						</div>
-						<div class="col-lg-4 col-md-6 col-sm-12">
-							<div class="share_link_section">
-								<h2 class="text-right">SHARE YOUR DRIVE LINK HERE</h2>
-								<p class="text-right">YOUR CONTRIBUTION IS MUCH APPRICIATED</p>
-								<button><span>SUBMIT</span></button>
-							</div>
-							
-						</div>
-					</div>
-				</div>
+				@include('include/share-slide')
 			</div>
 			
 				@include('include/footer')

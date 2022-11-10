@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\auth;
 use Illuminate\Support\Facades\storage;
-use app\models\user;
+use App\Models\user;
 class HomeController extends Controller
 {
     /**
@@ -43,7 +43,6 @@ class HomeController extends Controller
             'Institute'=>'required',
             'Phone'=>'required',
             'Status'=>'required',
-            'Profile_Picure'=>'required'
         ]);
         if($r->file('Profile_Picure')){
             $file = $r->file('Profile_Picure');
@@ -86,5 +85,8 @@ class HomeController extends Controller
         $user=Auth::user();
         return view('student_profile',compact('user'));
     }
+   
+
+    
     
 }

@@ -52,3 +52,18 @@ Route::get('about-us', [App\Http\Controllers\PageController::class, 'about_us'])
 
 
 Route::post('update-profile', [App\Http\Controllers\HomeController::class, 'update_profile'])->name('update_profile');
+
+
+
+//admin page
+Route::get('admin-login-secret', [App\Http\Controllers\PageController::class, 'admin_login'])->name('admin_login');
+Route::post('admin-login-secret', [App\Http\Controllers\PageController::class, 'admin_login_check'])->name('admin_login_check');
+Route::get('admin-profile', [App\Http\Controllers\PageController::class, 'admin_profile'])->name('admin_profile');
+Route::get('admin-logout', [App\Http\Controllers\PageController::class, 'admin_logout'])->name('admin_logout');
+
+
+//upload resume
+Route::post('upload-resume', [App\Http\Controllers\PageController::class, 'upload_resume'])->name('upload_resume');
+Route::get('download-pdf/{file}', [App\Http\Controllers\PageController::class, 'download_pdf'])->name('download_pdf');
+Route::get('delete-pdf/{file}', [App\Http\Controllers\PageController::class, 'delete_pdf'])->name('delete_pdf');
+

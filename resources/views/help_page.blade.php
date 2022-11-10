@@ -77,51 +77,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="custom_form container">
-					<div class="row justify-content-center" >
-						<div class="col-lg-8 outer_form_div p-5">
-							<div class="form p-5">
-								<form class="container">
-									<h3 class="mb-5 fs-1">Feel free to reach out if you have any questions</h3>
-					
-								<div class="form-group py-2">
-									<label for="your_name" class="py-1">Your Name</label>
-									<input type="text" class="text-center form-control form-control-lg form-control-sm" id="your_name" aria-describedby="emailHelp" placeholder="Type your name">
-									
-								</div>
-								<div class="form-group py-2">
-									<label for="exampleInputEmail1" class="py-1">Your Email</label>
-									<input type="email" class="text-center form-control form-control-lg form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type your email">
-									
-								</div>
-								<div class="form-group py-2">
-								    <label for="exampleFormControlTextarea1" class="py-1">Message</label>
-								    <textarea class="text-center form-control form-control-lg form-control-sm" id="exampleFormControlTextarea1" rows="3" placeholder="Type your message"></textarea>
-								  </div>
-
-								<button type="submit" class="form_submit_button px-3 py-1 mt-4">Submit</button>
-							</form>
-							</div>
-							
-						</div>
-					</div>
-					
-				</div>
-				<div class="container share_link_home">
-					<div class="row mt-3 justify-content-around">
-						<div class="col-lg-2 ">
-							<img src="assets/image/person.png"  alt="">
-						</div>
-						<div class="col-lg-4 ">
-							<div class="share_link_section">
-								<h2 class="text-right">SHARE YOUR DRIVE LINK HERE</h2>
-								<p class="text-right">YOUR CONTRIBUTION IS MUCH APPRICIATED</p>
-								<button><span>SUBMIT</span></button>
-							</div>
-							
-						</div>
-					</div>
-				</div>
+				@include('include/contact-form')
+				@include('include/share-slide')
 			</div>
 			
 			@include('include/footer')

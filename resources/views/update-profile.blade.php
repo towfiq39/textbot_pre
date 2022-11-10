@@ -258,12 +258,7 @@
 													<input type="file" name="Profile_Picure" class="form-control"  placeholder="Profile Picture ">
 													
 												</div>
-												@error('Profile_Picure')
 												
-												<div class="alert alert-warning p-2 col-lg-6">
-													<strong>{{ $message }}</strong>
-												</div>
-												@enderror
 												
 												
 												
@@ -344,21 +339,7 @@
 					</div> --}}
 				</div>
 				
-				<div class="container share_link_home">
-					<div class="row mt-3 justify-content-around">
-						<div class="col-lg-2 ">
-							<img src="assets/image/person.png"  alt="">
-						</div>
-						<div class="col-lg-4 ">
-							<div class="share_link_section">
-								<h2 class="text-right">SHARE YOUR DRIVE LINK HERE</h2>
-								<p class="text-right">YOUR CONTRIBUTION IS MUCH APPRICIATED</p>
-								<button><span>SUBMIT</span></button>
-							</div>
-							
-						</div>
-					</div>
-				</div>
+				@include('include/share-slide')
 			</div>
 			
 			@include('include/footer')
