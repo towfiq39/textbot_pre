@@ -223,7 +223,7 @@ width: 17rem;
   text-align: right !important;
  
 }
-.align_right p ,.footer_last_section{
+.align_right p ,.footer_last_section,.footer_last_section a{
   font-weight: 500;
   font-size: 12px;
   color: #736E6A;

@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Admin-Profile</title>
+		<title>Admin-Batch-List</title>
 		<link rel="stylesheet" href="assets/css/login.css">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/all.min.css">
@@ -19,11 +19,11 @@
 			<div class="row container-fluid" >
 				<div class="col-lg-3">
 					<div class="list-group">
-						<a class="list-group-item active" href="{{ route('admin_profile') }}">
+						<a class="list-group-item " href="{{ route('admin_profile') }}">
 							<i class="fas fa-user"></i>
 							Pending Resume
 						</a>
-						<a class="list-group-item" href="{{ route('admin_batch_list') }}">
+						<a class="list-group-item active" href="{{ route('admin_batch_list') }}">
 							<i class="fas fa-user"></i>
 							Batch List
 						</a>
@@ -40,25 +40,28 @@
 						<thead>
 							<tr>
 								<th>ID</th>
-								<th>Resume</th>
+								<th>Batch</th>
+								<th>Picture</th>
 								
 								<th>Action</th>
 							</tr>
 						</thead>
 						
 						<tbody>
+							@if (session()->has('msg'))
+							<div class="alert alert-warning">
+								{{ session()->get('msg')}}
+							</div>
+							@endif
 							@foreach($data as $list)
+
 							<tr>
-								<td scope="row">{{ $list->id }}</td>
-								<td scope="row">{{ $list->resume }}</td>
-								
-								<td scope="row">
-									<a href="{{ route('download_pdf',$list->resume) }}" class="btn btn-primary btn-sm">Download</a>
-									<a onclick="return confirm('Are You Sure To Delete This Profile !!')" href="{{ route('delete_pdf',$list->id) }}" class="btn btn-danger btn-sm">Delete</a>
-									
-								</td>
-								
+								<td>{{$list->id}}</td>
+								<td>{{$list->batch}}</td>
+								<td><img class="" width="70px" height="70px" src="assets/image/{{ $list->profile_picture }}" ></td>
+								<td><a href="{{route('admin_student_list',$list->batch)}}" class="btn btn-sm btn-outline-primary">View</a></td>
 							</tr>
+
 							@endforeach
 						</tbody>
 						

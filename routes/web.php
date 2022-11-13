@@ -67,3 +67,15 @@ Route::post('upload-resume', [App\Http\Controllers\PageController::class, 'uploa
 Route::get('download-pdf/{file}', [App\Http\Controllers\PageController::class, 'download_pdf'])->name('download_pdf');
 Route::get('delete-pdf/{file}', [App\Http\Controllers\PageController::class, 'delete_pdf'])->name('delete_pdf');
 
+//student management admin
+Route::get('admin-batch-list', [App\Http\Controllers\PageController::class, 'admin_batch_list'])->name('admin_batch_list');
+Route::get('admin-student-list/{batch}', [App\Http\Controllers\PageController::class, 'admin_student_list'])->name('admin_student_list');
+Route::get('admin-edit-student/{id}', [App\Http\Controllers\PageController::class, 'admin_edit_student'])->name('admin_edit_student');
+Route::get('admin-delete-student/{id}', [App\Http\Controllers\PageController::class, 'admin_delete_student'])->name('admin_delete_student');
+//admin student search
+Route::post('admin-student-search', [App\Http\Controllers\PageController::class, 'admin_student_search'])->name('admin_student_search');
+
+
+// extra page
+Route::get('privacy-policy', [App\Http\Controllers\PageController::class, 'privacy_policy'])->name('privacy_policy');
+Route::get('terms-condition', [App\Http\Controllers\PageController::class, 'terms_condition'])->name('terms_condition');

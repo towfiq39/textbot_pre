@@ -67,12 +67,13 @@
 					<div class="col-lg-3">
 						<p>Copyright@ 2022 KUET TEXBOT | All Rights Reserved</p>
 					</div>
-					<div class="col-lg-7"></div>
-					<div class="col-lg-1">
-						<p>Privacy Policy</p>
+					<div class="col-lg-5"></div>
+					<div class="col-lg-2">
+						<a href="{{ route('privacy_policy') }}">Privacy Policy</a>
 					</div>
-					<div class="col-lg-1">
-						<p>Terms of Use</p>
+					<div class="col-lg-2">
+						<a href="{{ route('terms_condition') }}">Terms of Use</a>
+						
 					</div>
 				</div>
 			</div>
