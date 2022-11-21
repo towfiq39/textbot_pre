@@ -193,10 +193,10 @@
 														<?php } else {?>
 														<option>Select Batch</option>
 														
-														<option value="Textile">Textile Engineering</option>
-														<option value="Textile">Textile Engineering</option>
-														<option value="Textile">Textile Engineering</option>
-														<option value="Textile">Textile Engineering</option>
+														<option value="TE">Textile Engineering</option>
+														<option value="LE">Leather Engineering</option>
+														<option value="CE">Civil Engineering</option>
+														<option value="ME">Mechanical Engineering</option>
 														
 														
 														<?php } ?>

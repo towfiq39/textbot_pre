@@ -31,7 +31,7 @@ class PageController extends Controller
     }
     public function student_list($id)
     {
-        $data=DB::table('users')->where('batch',$id)->get();
+        $data=DB::table('users')->where('batch',$id)->where('department','TE')->get();
         //return $id;
         //return $data;
         return view('student-list',compact('data','id'));

@@ -97,6 +97,48 @@
 								</div>
 
 							</div>
+							<div class="col-lg-4 col-md-6 col-sm-11 my-1">
+								<div class="card text-center py-5">
+									
+									<span class="card_image">
+										<img class="img-fluid" src="assets/image/Group 1908.png" >
+									</span>
+									
+									<div class="card-body">
+										<h2 class="name">Nafis</h2>
+										<h3 class="position">Back-end Developer</h3>
+										
+									</div>
+									<div>
+										<a href=""><img width="80px" src="assets/image/Group 1910.png" class="" alt=""></a>
+										<a href=""><img width="80px" src="assets/image/Group 1913.png" class="" alt=""></a>
+										<a href=""><img width="80px" src="assets/image/Group 1912.png" class="" alt=""></a>
+									</div>
+
+								</div>
+
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-11 my-1">
+								<div class="card text-center py-5">
+									
+									<span class="card_image">
+										<img class="img-fluid" src="assets/image/Group 1908.png" >
+									</span>
+									
+									<div class="card-body">
+										<h2 class="name">Efty Mahmud</h2>
+										<h3 class="position">Back-end Developer</h3>
+										
+									</div>
+									<div>
+										<a href=""><img width="80px" src="assets/image/Group 1910.png" class="" alt=""></a>
+										<a href=""><img width="80px" src="assets/image/Group 1913.png" class="" alt=""></a>
+										<a href=""><img width="80px" src="assets/image/Group 1912.png" class="" alt=""></a>
+									</div>
+
+								</div>
+
+							</div>
 							
 						</div>
 					</div>
