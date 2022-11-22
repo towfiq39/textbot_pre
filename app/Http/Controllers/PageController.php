@@ -258,6 +258,18 @@ class PageController extends Controller
               return redirect(route('jobs'));
                 
              }
+        public function admin_drive_link_list()
+            {
+                 $data=Drive::all();
+              return view('admin-drive',compact('data'));
+                
+        }
+        public function admin_job_list()
+                    {
+                         $data=Job::all();
+                      return view('admin-jobs',compact('data'));
+                        
+                }
 
     
 }

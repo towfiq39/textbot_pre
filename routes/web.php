@@ -59,6 +59,8 @@ Route::post('update-profile', [App\Http\Controllers\HomeController::class, 'upda
 Route::get('admin-login-secret', [App\Http\Controllers\PageController::class, 'admin_login'])->name('admin_login');
 Route::post('admin-login-secret', [App\Http\Controllers\PageController::class, 'admin_login_check'])->name('admin_login_check');
 Route::get('admin-profile', [App\Http\Controllers\PageController::class, 'admin_profile'])->name('admin_profile');
+Route::get('admin-jobs', [App\Http\Controllers\PageController::class, 'admin_job_list'])->name('admin_job_list');
+Route::get('admin-drive', [App\Http\Controllers\PageController::class, 'admin_drive_link_list'])->name('admin_drive_link_list');
 Route::get('admin-logout', [App\Http\Controllers\PageController::class, 'admin_logout'])->name('admin_logout');
 
 
