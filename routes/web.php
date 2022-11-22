@@ -79,3 +79,15 @@ Route::post('admin-student-search', [App\Http\Controllers\PageController::class,
 // extra page
 Route::get('privacy-policy', [App\Http\Controllers\PageController::class, 'privacy_policy'])->name('privacy_policy');
 Route::get('terms-condition', [App\Http\Controllers\PageController::class, 'terms_condition'])->name('terms_condition');
+
+// jobs
+Route::get('jobs', [App\Http\Controllers\PageController::class, 'jobs'])->name('jobs');
+Route::get('job-detail/{id}', [App\Http\Controllers\PageController::class, 'job_detail'])->name('job_detail');
+Route::get('post-job', [App\Http\Controllers\PageController::class, 'post_job'])->name('post_job');
+Route::post('post-job', [App\Http\Controllers\PageController::class, 'post_free_job'])->name('post_free_job');
+
+
+//share link 
+Route::post('upload-drive', [App\Http\Controllers\PageController::class, 'upload_drive'])->name('upload_drive');
+
+

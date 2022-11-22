@@ -82,7 +82,7 @@
 							</div>
 							
 							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
-								<a href="{{ route('under_construction') }}">
+								<a href="https://drive.google.com/drive/folders/12FRufgZVmPH3yYDfuXPdKyARp1WuEs95?fbclid=IwAR2A49Au4BZIiEyqdMKZXzHKCRZQJSnBod_Htab3XBcpSxgzBQTGlLsZdss">
 								<div class="card text-center py-5">
 									
 									<span class="">
@@ -120,7 +120,7 @@
 							
 							
 							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
-								<a href="{{ route('under_construction') }}">
+								<a href="https://drive.google.com/drive/folders/1k1jpAczwmcqy65UtTGTXK7yLrkOrp_Cv?fbclid=IwAR2A49Au4BZIiEyqdMKZXzHKCRZQJSnBod_Htab3XBcpSxgzBQTGlLsZdss">
 								<div class="card text-center py-5">
 									
 									<span class="">

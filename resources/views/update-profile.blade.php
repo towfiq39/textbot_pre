@@ -21,12 +21,8 @@
 							<li class="nav-item px-4">
 								<a class="nav-link" href="{{ route('home') }}">Home </a>
 							</li>
-							<li class="nav-item px-4">
-								<a class="nav-link" href="#">File</a>
-							</li>
-							<li class="nav-item px-4">
-								<a class="nav-link" href="#">Explore</a>
-							</li>
+							
+							
 							<li class="nav-item px-4">
 								<a class="nav-link" href="{{ route('help') }}">Help</a>
 							</li>

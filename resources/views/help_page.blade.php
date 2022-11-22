@@ -9,32 +9,14 @@
 		<link rel="stylesheet" href="assets/css/all.min.css">
 	</head>
 	<body>
-		<section class="section">
+		<section class="slide_top_section">
 			@include('include/navbar')
-			<section class="section_body container-fluid">
-				
-				
-				<div class="row py-5">
-					<div class="col-lg-2"></div>
-					<div class="col-lg-7 body_text">
-						<h3>KUET  <span class="px-2 tex"> TEX</span><span class='bot'>BOT</span></h3>
-						<h1>WE HELP YOU EXPLORE</h1>
-						<h1>THE <span class="academic_resource">ACADEMIC RESOURCES</span></h1>
-						<button class="mt-5"><span>MORE ABOUT US</span></button>
-						
-					</div>
-					<div class="col-lg-1"></div>
-					<div class="col-lg-2 col-md-2 col-sm-1 custom_image pl-3">
-						<img src="assets/image/Picture1.png" class="img-fluid" alt="">
-					</div>
-				</div>
-				
-			</section>
+			
 		</section>
 		<section class="slide bg-dark">
 			<div class="p-5">
 				<div class="container slide_section my-5">
-					<h3 class="text-center pt-5">1ST YEAR</h3>
+					<h3 class="text-center pt-5">HELP</h3>
 					<div class="container p-5">
 						<div class="row justify-content-around">
 							

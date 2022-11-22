@@ -7,7 +7,13 @@
 			<div class="share_link_section">
 				<h2 class="text-right">SHARE YOUR DRIVE LINK HERE</h2>
 				<p class="text-right">YOUR CONTRIBUTION IS MUCH APPRICIATED</p>
-				<button><span>SUBMIT</span></button>
+				<form action="{{ route('upload_drive')}}" method="POST">
+					@csrf
+					<input type="text" class="form-control my-1" name="drive_link" placeholder="Share Drive Link">
+					<input type="submit" class="btn btn btn-outline-light">
+					
+				</form>
+				
 			</div>
 			
 		</div>

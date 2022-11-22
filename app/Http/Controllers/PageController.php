@@ -1,10 +1,13 @@
 <?php
 
 namespace App\Http\Controllers;
+use Illuminate\Support\Facades\auth;
 
 use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\Resume;
+use App\Models\Job;
+use App\Models\Drive;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Stroage;
@@ -196,6 +199,65 @@ class PageController extends Controller
 
         }
 
-        
+        public function jobs()
+        {
+            $data=job::all();
+            return view('jobs',compact('data'));
+            
+            
+
+        }
+        public function job_detail($id)
+                {
+                    $data=Job::find($id);
+                    //return $data;
+                    return view('job-details',compact('data'));
+                    
+                    
+
+                }
+
+        public function upload_drive(Request $r)
+            {
+                 
+                if (Auth::check()) {
+                    $id=auth()->id();
+                    $user=User::find($id);
+
+                    $data=New Drive;
+                        $data->user_name=$user->user_name;
+                        $data->batch=$user->batch;
+                        $data->drive_link=$r->drive_link;
+
+                        $data->save();
+                        return redirect()->back();
+                }else{
+                    return redirect(route('login'));
+                }
+                
+             }
+
+        public function post_job()
+        {
+             
+           return view('post-job');
+            
+         }
+         public function post_free_job(Request $r)
+            {
+                 
+              $data=New Job;
+              $data->job_title=$r->job_title;
+              $data->job_description=$r->job_description;
+              $data->salary=$r->salary;
+              $data->company=$r->company;
+              $data->job_location=$r->job_location;
+              $data->job_type=$r->job_type;
+
+              $data->save();
+              return redirect(route('jobs'));
+                
+             }
+
     
 }
