@@ -42,7 +42,7 @@
 								<div class="card text-center py-5">
 									
 									<span class="card_image">
-										<img class="img-fluid" src="assets/image/Group 1908.png" >
+										<img class="img-fluid" src="assets/image/Mobin Mithun.jpg" >
 									</span>
 									
 									<div class="card-body">
@@ -61,7 +61,7 @@
 								<div class="card text-center py-5">
 									
 									<span class="card_image">
-										<img class="img-fluid" src="assets/image/Group 1908.png" >
+										<img class="img-fluid" src="assets/image/shatil.jpg" >
 									</span>
 									
 									<div class="card-body">
@@ -80,7 +80,7 @@
 								<div class="card text-center py-5">
 									
 									<span class="card_image">
-										<img class="img-fluid" src="assets/image/Group 1908.png" >
+										<img class="img-fluid" src="assets/image/imroz.jpg" >
 									</span>
 									
 									<div class="card-body">
@@ -101,7 +101,7 @@
 								<div class="card text-center py-5">
 									
 									<span class="card_image">
-										<img class="img-fluid" src="assets/image/Group 1908.png" >
+										<img class="img-fluid" src="assets/image/nafis.jpg" >
 									</span>
 									
 									<div class="card-body">
@@ -122,7 +122,7 @@
 								<div class="card text-center py-5">
 									
 									<span class="card_image">
-										<img class="img-fluid" src="assets/image/Group 1908.png" >
+										<img class="img-fluid" src="assets/image/efty.jpg" >
 									</span>
 									
 									<div class="card-body">
@@ -152,7 +152,7 @@
 								<div class="card text-center py-5">
 									
 									<span class="card_image">
-										<img class="img-fluid" src="assets/image/Group 1918.png" >
+										<img class="img-fluid" src="assets/image/Mehedi Hasan.jpg" >
 									</span>
 									
 									<div class="card-body">
@@ -169,7 +169,7 @@
 								<div class="card text-center py-5">
 									
 									<span class="card_image">
-										<img class="img-fluid" src="assets/image/Group 1918.png" >
+										<img class="img-fluid" src="assets/image/Ehasanul Hoque Shojib.jpg" >
 									</span>
 									
 									<div class="card-body">
@@ -186,7 +186,7 @@
 								<div class="card text-center py-5">
 									
 									<span class="card_image">
-										<img class="img-fluid" src="assets/image/Group 1918.png" >
+										<img class="img-fluid" src="assets/image/Ayon Paul.jpg" >
 									</span>
 									
 									<div class="card-body">
@@ -203,7 +203,7 @@
 								<div class="card text-center py-5">
 									
 									<span class="card_image">
-										<img class="img-fluid" src="assets/image/Group 1918.png" >
+										<img class="img-fluid" src="assets/image/Mukitur Rahman Mukit.jpg" >
 									</span>
 									
 									<div class="card-body">
@@ -230,7 +230,7 @@
 								<div class="card text-center py-5">
 									
 									<span class="card_image">
-										<img class="img-fluid" src="assets/image/Group 1918.png" >
+										<img class="img-fluid" src="assets/image/Mahir Abrar.jpg" >
 									</span>
 									
 									<div class="card-body">
@@ -247,7 +247,7 @@
 								<div class="card text-center py-5">
 									
 									<span class="card_image">
-										<img class="img-fluid" src="assets/image/Group 1918.png" >
+										<img class="img-fluid" src="assets/image/Toufiq Zia.jpg" >
 									</span>
 									
 									<div class="card-body">
@@ -264,7 +264,7 @@
 								<div class="card text-center py-5">
 									
 									<span class="card_image">
-										<img class="img-fluid" src="assets/image/Group 1918.png" >
+										<img class="img-fluid" src="assets/image/Mohaimeen Fardin.jpg" >
 									</span>
 									
 									<div class="card-body">
@@ -281,11 +281,11 @@
 								<div class="card text-center py-5">
 									
 									<span class="card_image">
-										<img class="img-fluid" src="assets/image/Group 1918.png" >
+										<img class="img-fluid" src="assets/image/Masrur Mortuza.jpg" >
 									</span>
 									
 									<div class="card-body">
-										<h3 class="position">???</h3>
+										<h3 class="position">Masrur Mortuza</h3>
 										
 									</div>
 									<div>

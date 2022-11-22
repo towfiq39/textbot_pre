@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Index</title>
 		<link rel="stylesheet" href="assets/css/login.css">
+		<link rel="stylesheet" href="assets/css/home cards.css">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/all.min.css">
 	</head>
@@ -46,7 +47,7 @@
 										<img class="img-fluid" src="assets/image/Group 1887.png" >
 									</span>
 									
-									<div class="card-body">
+									<div class="card-body ">
 										<p class="card-text">SLIDES & BOOKS</p>
 									</div>
 								</div>
