@@ -31,7 +31,6 @@
 											<p class="card-text mt-5">Job Title : {{$list->job_title}}</p>
 											<p class="card-text mt-5">Job LocaTion : {{$list->job_location}}</p>
 											<p class="card-text mt-5">Salary : {{$list->salary}}</p>
-											<p class="card-text mt-5">Company : {{$list->company}}</p>
 											<p class="card-text mt-5">Job Type : {{$list->job_type}}</p>
 											<a href="{{route('job_detail',$list->id)}}" class="btn btn-sm btn-outline-light">See More</a>
 										</div>

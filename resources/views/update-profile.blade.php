@@ -30,6 +30,9 @@
 								<a class="nav-link" href="{{ route('submit') }}">Submit</a>
 							</li>
 							<li class="nav-item px-4">
+								<a class="nav-link" href="{{ route('jobs') }}">Jobs</a>
+							</li>
+							<li class="nav-item px-4">
 								<span class="nav-link green">|</span>
 							</li>
 							<li class="nav-item px-4 ">
