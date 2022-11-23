@@ -53,8 +53,8 @@
 								  </tr>
 								  
 								</table>
-								<a href="" class="btn btn-outline-light">Apply</a>
-								<a href="" class="btn btn-outline-primary">Back</a>
+								<a href="{{ $user->facebook }}" class="btn btn-outline-light mx-2">Contact Job Holder</a>
+								<a href="{{ route('index') }}" class="btn btn-outline-primary">Back</a>
 							</div>
 							
 						</div>

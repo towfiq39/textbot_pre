@@ -211,7 +211,8 @@ class PageController extends Controller
                 {
                     $data=Job::find($id);
                     //return $data;
-                    return view('job-details',compact('data'));
+                    $user=User::where('certificate_name',$data->job_holder)->first();
+                    return view('job-details',compact('data' , 'user'));
                     
                     
 
