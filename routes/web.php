@@ -91,5 +91,7 @@ Route::post('post-job', [App\Http\Controllers\PageController::class, 'post_free_
 
 //share link 
 Route::post('upload-drive', [App\Http\Controllers\PageController::class, 'upload_drive'])->name('upload_drive');
+Route::get('admin-drive-list/{id}', [App\Http\Controllers\PageController::class, 'admin_drive_list'])->name('admin_drive_list');
+Route::get('admin-job-post-list/{id}', [App\Http\Controllers\PageController::class, 'admin_job_post_list'])->name('admin_job_post_list');
 
 

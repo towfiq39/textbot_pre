@@ -70,7 +70,7 @@
 								
 								<td scope="row">
 									<a href="" class="btn btn-primary btn-sm">Edit</a>
-									<a onclick="return confirm('Are You Sure To Delete This Profile !!')" href="" class="btn btn-danger btn-sm">Delete</a>
+									<a onclick="return confirm('Are You Sure To Delete This Profile !!')" href="{{route('admin_job_post_list',$list->id)}}" class="btn btn-danger btn-sm">Delete</a>
 									
 								</td>
 								

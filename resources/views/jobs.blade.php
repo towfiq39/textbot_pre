@@ -19,6 +19,7 @@
 					<h3 class="text-center pt-5">JOB LIST</h3>
 					<div class="container p-5">
 						<div class="row justify-content-around">
+							@if(count($data)>0)
 							@foreach($data as $list)
 							<div class="col-lg-4 col-md-4 col-sm-10 my-1">
 								<div class="card text-center">
@@ -39,6 +40,8 @@
 								</div>
 							</div>
 							@endforeach
+							@endif
+							
 						</div>
 						@if(method_exists($list,'links'))
 						<div class="d-flex justify-content-center text-white">

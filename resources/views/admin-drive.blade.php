@@ -65,8 +65,8 @@
 								<td scope="row">{{ $list->drive_link }}</td>
 								
 								<td scope="row">
-									<a href="" class="btn btn-primary btn-sm">Edit</a>
-									<a onclick="return confirm('Are You Sure To Delete This Profile !!')" href="" class="btn btn-danger btn-sm">Delete</a>
+									<a href="{{ $list->drive_link }}" class="btn btn-primary btn-sm">Go</a>
+									<a onclick="return confirm('Are You Sure To Delete This Profile !!')" href="{{route('admin_drive_list',$list->id)}}" class="btn btn-danger btn-sm">Delete</a>
 									
 								</td>
 								

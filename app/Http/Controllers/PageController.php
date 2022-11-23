@@ -239,37 +239,58 @@ class PageController extends Controller
 
         public function post_job()
         {
-             
+           if (Auth::check()) {  
            return view('post-job');
+            }else{
+                    return redirect(route('login'));
+                }
             
          }
          public function post_free_job(Request $r)
             {
-                 
-              $data=New Job;
-              $data->job_title=$r->job_title;
-              $data->job_description=$r->job_description;
-              $data->salary=$r->salary;
-              $data->company=$r->company;
-              $data->job_location=$r->job_location;
-              $data->job_type=$r->job_type;
+                $id=auth()->id();
+                $user=User::find($id);
+
+                  $job_holder=$user->certificate_name; 
+                  $data=New Job;
+                  $data->job_holder=$job_holder;
+                  $data->job_title=$r->job_title;
+                  $data->job_description=$r->job_description;
+                  $data->salary=$r->salary;
+                  $data->company=$r->company;
+                  $data->job_location=$r->job_location;
+                  $data->job_type=$r->job_type;
 
               $data->save();
               return redirect(route('jobs'));
                 
              }
         public function admin_drive_link_list()
-            {
-                 $data=Drive::all();
-              return view('admin-drive',compact('data'));
+        {
+            $data=Drive::all();
+            return view('admin-drive',compact('data'));
                 
         }
         public function admin_job_list()
-                    {
-                         $data=Job::all();
-                      return view('admin-jobs',compact('data'));
+        {
+            $data=Job::all();
+            return view('admin-jobs',compact('data'));
                         
-                }
+        }
+        public function admin_drive_list($id)
+        {
+           $data=Drive::find($id);
+            $data->delete();
+            return redirect()->back();
+                        
+        }
+        public function admin_job_post_list($id)
+        {
+           $data=Job::find($id);
+            $data->delete();
+            return redirect()->back();
+                        
+        }
 
     
 }
