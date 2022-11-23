@@ -59,6 +59,8 @@ Route::post('update-profile', [App\Http\Controllers\HomeController::class, 'upda
 Route::get('admin-login-secret', [App\Http\Controllers\PageController::class, 'admin_login'])->name('admin_login');
 Route::post('admin-login-secret', [App\Http\Controllers\PageController::class, 'admin_login_check'])->name('admin_login_check');
 Route::get('admin-profile', [App\Http\Controllers\PageController::class, 'admin_profile'])->name('admin_profile');
+Route::get('admin-jobs', [App\Http\Controllers\PageController::class, 'admin_job_list'])->name('admin_job_list');
+Route::get('admin-drive', [App\Http\Controllers\PageController::class, 'admin_drive_link_list'])->name('admin_drive_link_list');
 Route::get('admin-logout', [App\Http\Controllers\PageController::class, 'admin_logout'])->name('admin_logout');
 
 
@@ -79,3 +81,17 @@ Route::post('admin-student-search', [App\Http\Controllers\PageController::class,
 // extra page
 Route::get('privacy-policy', [App\Http\Controllers\PageController::class, 'privacy_policy'])->name('privacy_policy');
 Route::get('terms-condition', [App\Http\Controllers\PageController::class, 'terms_condition'])->name('terms_condition');
+
+// jobs
+Route::get('jobs', [App\Http\Controllers\PageController::class, 'jobs'])->name('jobs');
+Route::get('job-detail/{id}', [App\Http\Controllers\PageController::class, 'job_detail'])->name('job_detail');
+Route::get('post-job', [App\Http\Controllers\PageController::class, 'post_job'])->name('post_job');
+Route::post('post-job', [App\Http\Controllers\PageController::class, 'post_free_job'])->name('post_free_job');
+
+
+//share link 
+Route::post('upload-drive', [App\Http\Controllers\PageController::class, 'upload_drive'])->name('upload_drive');
+Route::get('admin-drive-list/{id}', [App\Http\Controllers\PageController::class, 'admin_drive_list'])->name('admin_drive_list');
+Route::get('admin-job-post-list/{id}', [App\Http\Controllers\PageController::class, 'admin_job_post_list'])->name('admin_job_post_list');
+
+

@@ -27,6 +27,14 @@
 							<i class="fas fa-user"></i>
 							Batch List
 						</a>
+						<a class="list-group-item " href="{{ route('admin_job_list') }}">
+							<i class="fas fa-user"></i>
+							Jobs
+						</a>
+						<a class="list-group-item " href="{{ route('admin_drive_link_list') }}">
+							<i class="fas fa-user"></i>
+							Drive Link
+						</a>
 						
 						<a class="list-group-item " href="{{ route('admin_logout') }}">
 							<i class="fas fa-sign-out-alt"></i>

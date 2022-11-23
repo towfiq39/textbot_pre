@@ -57,60 +57,60 @@
 						<div class="row justify-content-center p-5" id="academic">
 							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
 								<a href="{{ route('slide_page') }}">
-								<div class="card text-center py-5">
-									
-									<span class="">
-										<img class="img-fluid" src="assets/image/Group 1887.png" >
-									</span>
-									
-									<div class="card-body ">
-										<p class="card-text">SLIDES & BOOKS</p>
+									<div class="card text-center py-5">
+										
+										<span class="">
+											<img class="img-fluid" src="assets/image/Group 1887.png" >
+										</span>
+										
+										<div class="card-body ">
+											<p class="card-text">SLIDES & BOOKS</p>
+										</div>
 									</div>
-								</div>
-							</a>
+								</a>
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
 								<a href="{{ route('notes_page') }}">
-								<div class="card text-center py-5">
-									
-									<span class="">
-										<img class="img-fluid" src="assets/image/Group 1888.png" >
-									</span>
-									
-									<div class="card-body">
-										<p class="card-text">NOTES</p>
+									<div class="card text-center py-5">
+										
+										<span class="">
+											<img class="img-fluid" src="assets/image/Group 1888.png" >
+										</span>
+										
+										<div class="card-body">
+											<p class="card-text">NOTES</p>
+										</div>
 									</div>
-								</div>
-							</a>
+								</a>
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
 								<a href="{{ route('recent_drives_page') }}">
-								<div class="card text-center py-5">
-									
-									<span class="">
-										<img class="img-fluid" src="assets/image/Group 1889.png" >
-									</span>
-									
-									<div class="card-body">
-										<p class="card-text">RECENT DRIVES</p>
+									<div class="card text-center py-5">
+										
+										<span class="">
+											<img class="img-fluid" src="assets/image/Group 1889.png" >
+										</span>
+										
+										<div class="card-body">
+											<p class="card-text">RECENT DRIVES</p>
+										</div>
 									</div>
-								</div>
-							</a>
+								</a>
 							</div>
 							
 							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
-								<a href="{{ route('under_construction') }}">
-								<div class="card text-center py-5">
-									
-									<span class="">
-										<img class="img-fluid" src="assets/image/Group 1890.png" >
-									</span>
-									
-									<div class="card-body">
-										<p class="card-text">OTHER DOCS</p>
+								<a href="https://drive.google.com/drive/folders/12FRufgZVmPH3yYDfuXPdKyARp1WuEs95?fbclid=IwAR2A49Au4BZIiEyqdMKZXzHKCRZQJSnBod_Htab3XBcpSxgzBQTGlLsZdss">
+									<div class="card text-center py-5">
+										
+										<span class="">
+											<img class="img-fluid" src="assets/image/Group 1890.png" >
+										</span>
+										
+										<div class="card-body">
+											<p class="card-text">OTHER DOCS</p>
+										</div>
 									</div>
-								</div>
-							</a>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -137,47 +137,47 @@
 							
 							
 							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
-								<a href="{{ route('under_construction') }}">
-								<div class="card text-center py-5">
-									
-									<span class="">
-										<img class="img-fluid" src="assets/image/Group 1886.png" >
-									</span>
-									
-									<div class="card-body">
-										<p class="card-text">LIBRARY</p>
+								<a href="https://drive.google.com/drive/folders/1k1jpAczwmcqy65UtTGTXK7yLrkOrp_Cv?fbclid=IwAR2A49Au4BZIiEyqdMKZXzHKCRZQJSnBod_Htab3XBcpSxgzBQTGlLsZdss">
+									<div class="card text-center py-5">
+										
+										<span class="">
+											<img class="img-fluid" src="assets/image/Group 1886.png" >
+										</span>
+										
+										<div class="card-body">
+											<p class="card-text">LIBRARY</p>
+										</div>
 									</div>
-								</div>
-							</a>
+								</a>
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
 								<a href="{{ route('under_construction') }}">
-								<div class="card text-center py-5">
-									
-									<span class="">
-										<img class="img-fluid" src="assets/image/Group 1894.png" >
-									</span>
-									
-									<div class="card-body">
-										<p class="card-text">HIGHER STUDY </p>
+									<div class="card text-center py-5">
+										
+										<span class="">
+											<img class="img-fluid" src="assets/image/Group 1894.png" >
+										</span>
+										
+										<div class="card-body">
+											<p class="card-text">HIGHER STUDY </p>
+										</div>
 									</div>
-								</div>
-							</a>
+								</a>
 							</div>
 							
 							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
 								<a href="{{ route('under_construction') }}">
-								<div class="card text-center py-5">
-									
-									<span class="">
-										<img class="img-fluid" src="assets/image/Group 1893.png" >
-									</span>
-									
-									<div class="card-body">
-										<p class="card-text">CLUBS & GROUPS</p>
+									<div class="card text-center py-5">
+										
+										<span class="">
+											<img class="img-fluid" src="assets/image/Group 1893.png" >
+										</span>
+										
+										<div class="card-body">
+											<p class="card-text">CLUBS & GROUPS</p>
+										</div>
 									</div>
-								</div>
-							</a>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -191,5 +191,4 @@
 				@include('include/share-slide')
 			</div>
 			
-				@include('include/footer')
-		
+			@include('include/footer')

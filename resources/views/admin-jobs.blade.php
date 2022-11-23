@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Admin-Profile</title>
+		<title>Admin-Jobs</title>
 		<link rel="stylesheet" href="assets/css/login.css">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/all.min.css">
@@ -19,7 +19,7 @@
 			<div class="row container-fluid" >
 				<div class="col-lg-3">
 					<div class="list-group">
-						<a class="list-group-item active" href="{{ route('admin_profile') }}">
+						<a class="list-group-item " href="{{ route('admin_profile') }}">
 							<i class="fas fa-user"></i>
 							Pending Resume
 						</a>
@@ -27,7 +27,7 @@
 							<i class="fas fa-user"></i>
 							Batch List
 						</a>
-						<a class="list-group-item" href="{{ route('admin_job_list') }}">
+						<a class="list-group-item active" href="{{ route('admin_job_list') }}">
 							<i class="fas fa-user"></i>
 							Jobs
 						</a>
@@ -48,7 +48,11 @@
 						<thead>
 							<tr>
 								<th>ID</th>
-								<th>Resume</th>
+								<th>Title</th>
+								<th>Salary</th>
+								<th>Company</th>
+								<th>Location</th>
+								<th>Type</th>
 								
 								<th>Action</th>
 							</tr>
@@ -58,11 +62,15 @@
 							@foreach($data as $list)
 							<tr>
 								<td scope="row">{{ $list->id }}</td>
-								<td scope="row">{{ $list->resume }}</td>
+								<td scope="row">{{ $list->job_title }}</td>
+								<td scope="row">{{ $list->salary }}</td>
+								<td scope="row">{{ $list->company }}</td>
+								<td scope="row">{{ $list->job_location }}</td>
+								<td scope="row">{{ $list->job_type }}</td>
 								
 								<td scope="row">
-									<a href="{{ route('download_pdf',$list->resume) }}" class="btn btn-primary btn-sm">Download</a>
-									<a onclick="return confirm('Are You Sure To Delete This Profile !!')" href="{{ route('delete_pdf',$list->id) }}" class="btn btn-danger btn-sm">Delete</a>
+									<a href="" class="btn btn-primary btn-sm">Edit</a>
+									<a onclick="return confirm('Are You Sure To Delete This Profile !!')" href="{{route('admin_job_post_list',$list->id)}}" class="btn btn-danger btn-sm">Delete</a>
 									
 								</td>
 								

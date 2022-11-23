@@ -640,6 +640,22 @@ border-radius: 10px;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 580px) {
   .custom_image{
     opacity:0;
@@ -671,7 +687,7 @@ border-radius: 10px;
 }
 .share_link_home{
 
-  height: 150px;
+  height: 200px;
   margin-top: 160px;
 }
 .share_link_home img{
@@ -717,6 +733,14 @@ border-radius: 10px;
   font-size: 20px !important;
   
 }
+
+.share_link_home img{
+  margin-top: -180px;
+}
+.share_link_section{
+  text-align: right !important;
+  margin-top: -140px;
+}
 }
 @media screen and (max-width: 1020px) {
   .custom_image{
@@ -747,4 +771,8 @@ border-radius: 10px;
   font-size: 20px !important;
   
 }
+.share_link_section h2{
+  font-size: 20px;
+}
+
 }
