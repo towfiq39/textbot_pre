@@ -14,7 +14,23 @@
 			
 			@include('include/navbar')
 			<section class="section_body container-fluid">
-				
+
+			<!-- Stars -->
+			<section>
+				<span class='star'></span>
+				<span class='star'></span>
+				<span class='star'></span>
+				<span class='star'></span>
+				<span class='star'></span>
+				<span class='star'></span>
+				<span class='star'></span>
+				<span class='star'></span>
+				<span class='star'></span>
+				<span class='star'></span>
+				<span class='star'></span>
+			</section>
+			<!-- Star end -->
+						
 				
 				<div class="row py-5">
 					<div class="col-lg-2"></div>
@@ -166,6 +182,12 @@
 						</div>
 					</div>
 				</div>
+
+
+
+
+
+
 				@include('include/share-slide')
 			</div>
 			
