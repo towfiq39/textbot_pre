@@ -23,7 +23,7 @@
 							@foreach($data as $row)
 							<div class="col-lg-3 my-3">
 								<a href="{{ url('student-list')}}/{{ $row->batch }}">
-								<div class="card text-center py-5">
+								<div class="card card-animated text-center py-5">
 									
 									<span class="card_image">
 										<img class="img-fluid" src="assets/image/{{ $row->profile_picture }}" >

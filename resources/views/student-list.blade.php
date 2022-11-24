@@ -22,7 +22,7 @@
 						<div class="row justify-content-around">
 							@foreach($data as $row)
 							<div class="col-lg-3 py-3">
-								<div class="card text-center py-5">
+								<div class="card  text-center py-5">
 									
 									
 										<div>
