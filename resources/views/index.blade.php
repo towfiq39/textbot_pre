@@ -38,7 +38,7 @@
 						<h3>KUET  <span class="px-2 tex"> TEX</span><span class='bot'>BOT</span></h3>
 						<h1>WE HELP YOU EXPLORE</h1>
 						<h1>THE <span class="academic_resource mx-2"> ACADEMIC RESOURCES</span></h1>
-						<button class="mt-5"><span>MORE ABOUT US</span></button>
+						<a class="mt-5" href="{{ route('about_us') }}">MORE ABOUT US</a>
 						
 					</div>
 					<div class="col-lg-1"></div>
