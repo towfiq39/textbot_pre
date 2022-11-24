@@ -1,160 +1,51 @@
-
-
-
-.card-anim {
-   
-    overflow: hidden;
-    
+/* .card-animated {
+  position: relative;
+  
+ 
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
 }
 
-.card-anim::before {
-    
-    background: linear-gradient(#00ccff,#d400d4);
-    animation: card-animation 4s linear infinite;
+.card-animated::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 120%;
+  background: linear-gradient(#00ccff,#d400d4);
+  animation: card-animation 4s linear infinite;
 }
 
-.card-anim::after {
-    
-    
-    background: rgba(48, 50, 52, 1);  
-    border-radius: 16px;
-    
+.card-animated::after {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  background: rgba(48, 50, 52, 1);  
+  border-radius: 16px;
+  z-index: 1;
 }
-.card-anim:hover {
-    transform: scale(1.1);
-    background: whitesmoke;
-
+.card-animated:hover {
+  transform: scale(1.1);
+  background: whitesmoke;
 }
 
 
 @keyframes card-animation
 {
-    0%
-    {
-        transform: rotate(0deg);
-    }
-    100%
-    {
-        transform: rotate(360deg);
-    }
-} 
-
-
-
-    /* Get rid of the text under-line */
-a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
-}
-
-/* Neon button */
-                  
-/* .neon-button {
-    font-size: 1.5rem;
-  
-    display: inline-block;
-    cursor: pointer;
-    text-decoration: none;
-    color: var(--clr-neon);
-    border: var(--clr-neon) 0.125em solid;
-    padding: 0.25em 1em;
-    border-radius: 0.25em;
-  
-    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
-  
-    box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
-  
-    position: relative;
-
-    transition: background-color 100ms linear;
+  0%
+  {
+      transform: rotate(0deg);
   }
-  
-  .neon-button::before {
-    pointer-events: none;
-    content: "";
-    position: absolute;
-    background: var(--clr-neon);
-    top: 120%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  
-    transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
-    filter: blur(.7em);
-    opacity: 0;
+  100%
+  {
+      transform: rotate(360deg);
   }
-  
-  .neon-button::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    box-shadow: 0 0 2em 0.5em var(--clr-neon);
-    opacity: 0;
-    background-color: var(--clr-neon);
-    z-index: -1;
-    transition: opacity 100ms linear;
-  }
-  
-  .neon-button:hover,
-  .neon-button:focus {
-    background: var(--clr-neon);
-    color: white;
-    text-shadow: none;
+}  */
 
-  }
-  
-  .neon-button:hover::before,
-  .neon-button:focus::before {
-    opacity: 1;
-  }
-  .neon-button:hover::after,
-  .neon-button:focus::after {
-    opacity: 1;
-  }
-
-                  /* Neon button end*/
-
-/* .line-Image-wrapper {
-    padding-top: 100px;
-    padding-bottom: 100px;
-
-}
-@media screen and (max-width: 35em) {
-    .line-Image-wrapper {
-        display: none;
-    }
-}
-  .line {
-    background: linear-gradient(rgba(66, 71, 80, 1),rgba(32, 35, 38, 1));
-    width:100%;
-    height: 20px;
-    margin-top: 50px;
-    background-repeat: no-repeat;
-
-  }
-  .line-icon-img {
-    background-image: url('../.././images/line_icon_img.png');
-    height: 200px;
-    width: auto;
-    background-repeat: no-repeat;
-    margin-top: -125px;
-    margin-left: 45%;
-  }
-  @media (max-width: 760px) {
-    .line-icon-img {
-        margin-left: 35%;
-    }
-}
-  @media (max-width: 620px) {
-    .line-icon-img {
-        margin-left: 30%;
-    }
-} */
-
-
-
-
-
+/* card-animated anim. end */
