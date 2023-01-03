@@ -192,10 +192,21 @@
 														<?php } else {?>
 														<option>Select Batch</option>
 														
+														<option value="CE">Civil Engineering</option>
+														<option value="URP">Urban & Regional Planning</option>
+														<option value="BECM">Building Engineering and Construction Management</option>
+														<option value="ARCH">Architecture </option>
+														<option value="EEE">Electrical and Electronic Engineering</option>
+														<option value="CSE">Computer Science and Engineering</option>
+														<option value="ECE"> Electronics and Communication Engineering</option>
+														<option value="BME"> Biomedical Engineering</option>
+														<option value="MSE">Materials Science and Engineering</option>
+														<option value="IEM">Industrial Engineering and Management</option>
 														<option value="TE">Textile Engineering</option>
 														<option value="LE">Leather Engineering</option>
-														<option value="CE">Civil Engineering</option>
-														<option value="ME">Mechanical Engineering</option>
+														<option value="ESE">Energy Science and Engineering</option>
+														<option value="ChE">Chemical Engineering</option>
+														<option value="MtE">Mechatronics Engineering</option>
 														
 														
 														<?php } ?>
@@ -269,73 +280,7 @@
 							</div>
 						</div>
 					</div>
-					{{-- <div class="container my-2">
-						<div class="row justify-content-center p-3">
-							<div class="col-lg-8">
-								<div class="card p-5">
-									<p class="text-left mb-5">ACADEMIC INFORMATION</p>
-									<div class="user_details p-3">
-										<table class="table">
-											<tr>
-												
-												<th scope="col">Certificate Name :</th>
-												<td class="ml-5">@ThisIsMob</td>
-											</tr>
-											<tr>
-												<th scope="col">Roll Number :</th>
-												<td class="ml-5">mobinmithun@gmail.com</td>
-											</tr>
-											<tr>
-												<th scope="col">Batch :</th>
-												<td class="ml-5">mobinmithun@gmail.com</td>
-											</tr>
-											<tr>
-												<th scope="col">Department :</th>
-												<td class="ml-5">11 September, 1997</td>
-											</tr>
-											<tr>
-												<th scope="col">Institution :</th>
-												<td class="ml-5">B+</td>
-											</tr>
-										</table>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="container my-2">
-						<div class="row justify-content-center p-3">
-							<div class="col-lg-8">
-								<div class="card p-5">
-									<p class="text-left mb-5">CONTACT INFORMATION</p>
-									<div class="user_details p-3">
-										<table class="table">
-											<tr>
-												<th scope="col">Phone Number :</th>
-												<td class="ml-5">@ThisIsMob</td>
-											</tr>
-											<tr>
-												<th scope="col">Facebook ID :</th>
-												<td class="ml-5">@ThisIsMob</td>
-											</tr>
-											<tr>
-												<th scope="col">LinkedIn ID :</th>
-												<td class="ml-5">mobinmithun@gmail.com</td>
-											</tr>
-											<tr>
-												<th scope="col">Status :</th>
-												<td class="ml-5">11 September, 1997</td>
-											</tr>
-											<div>
-												
-											</div>
-											
-										</table>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div> --}}
+					
 				</div>
 				
 				@include('include/share-slide')
