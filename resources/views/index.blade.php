@@ -37,7 +37,7 @@
 					<div class="col-lg-7 body_text">
 						<h3>KUET  <span class="px-2 tex"> TEX</span><span class='bot'>BOT</span></h3>
 						<h1>WE HELP YOU EXPLORE</h1>
-						<h1>THE <span class="academic_resource mx-2"> ACADEMIC RESOURCES</span></h1>
+						<h1>THE<span class="academic_resource">ACADEMIC RESOURCES</span></h1>
 						<button class="mt-5"><span>MORE ABOUT US</span></button>
 						
 					</div>
@@ -51,11 +51,12 @@
 		</section>
 		<section class="academic_section bg-dark">
 			<div class="p-5">
-				<div class="new_section my-5 container-fluid">
+				<div class="new_section academic my-5 container-fluid">
 					<div class="container">
 						<h3 class="text-center pt-5">ACADEMIC FILE</h3>
 						<div class="row justify-content-center p-5" id="academic">
-							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
+
+							<div class="col-lg-3 col-md-6 col-sm-6 my-1">
 								<a href="{{ route('slide_page') }}">
 									<div class="card card-animated text-center py-5">
 										
@@ -69,7 +70,8 @@
 									</div>
 								</a>
 							</div>
-							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
+
+							<div class="col-lg-3 col-md-6 col-sm-6 my-1">
 								<a href="{{ route('notes_page') }}">
 									<div class="card card-animated text-center py-5">
 										
@@ -83,7 +85,7 @@
 									</div>
 								</a>
 							</div>
-							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
+							<div class="col-lg-3 col-md-6 col-sm-6 my-1">
 								<a href="{{ route('recent_drives_page') }}">
 									<div class="card card-animated text-center py-5">
 										
@@ -98,7 +100,7 @@
 								</a>
 							</div>
 							
-							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
+							<div class="col-lg-3 col-md-6 col-sm-6 my-1">
 								<a href="https://drive.google.com/drive/folders/12FRufgZVmPH3yYDfuXPdKyARp1WuEs95?fbclid=IwAR2A49Au4BZIiEyqdMKZXzHKCRZQJSnBod_Htab3XBcpSxgzBQTGlLsZdss">
 									<div class="card card-animated text-center py-5">
 										
@@ -115,12 +117,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="new_section  my-5 container-fluid">
+
+				<div class="new_section other my-5 container-fluid">
 					<div class="container">
 						<h3 class="text-center pt-5">EXPLORE</h3>
 						<div class="row justify-content-center p-5" id="explore">
 							
-							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
+							<div class="col-lg-3 col-md-6 col-sm-6 my-1">
 								<a href="{{ route('batch_profile') }}">
 									<div class="card card-animated text-center py-5">
 										
@@ -136,7 +139,7 @@
 							</div>
 							
 							
-							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
+							<div class="col-lg-3 col-md-6 col-sm-6 my-1">
 								<a href="https://drive.google.com/drive/folders/1k1jpAczwmcqy65UtTGTXK7yLrkOrp_Cv?fbclid=IwAR2A49Au4BZIiEyqdMKZXzHKCRZQJSnBod_Htab3XBcpSxgzBQTGlLsZdss">
 									<div class="card card-animated text-center py-5">
 										
@@ -150,7 +153,7 @@
 									</div>
 								</a>
 							</div>
-							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
+							<div class="col-lg-3 col-md-6 col-sm-6 my-1">
 								<a href="{{ route('under_construction') }}">
 									<div class="card card-animated text-center py-5">
 										
@@ -165,7 +168,7 @@
 								</a>
 							</div>
 							
-							<div class="col-lg-3 col-md-6 col-sm-11 my-1">
+							<div class="col-lg-3 col-md-6 col-sm-6 my-1">
 								<a href="{{ route('under_construction') }}">
 									<div class="card card-animated text-center py-5">
 										
@@ -183,6 +186,98 @@
 					</div>
 				</div>
 
+
+				<div class="new_section pricing my-5 container-fluid">
+					<div class="container">
+						<h3 class="text-center pt-5">Pricing</h3>
+						<div class="row justify-content-center p-5" id="academic">
+
+							<div class="col-lg-4 col-md-4 col-sm-4 my-1">
+								<a href="">
+									<div class="card card-animated text-center py-5">
+										
+										<span class="">
+											<img class="img-fluid" src="assets/image/Group 1887.png" >
+										</span>
+										
+										<div class="card-body ">
+											<h2 class="card-text" style="color:white;">FREE</h2>
+											<h4 style="color:orange;">0 BDT/month </h4>
+											<ul class="features" style="color:white;">
+												<li>Academic Files</li>
+												<li>Simple Profile</li>
+												<li>Chat Room Access</li>
+												<li>Job Posting</li>
+												<li><s>Library Access</s></li>
+												<li><s>Higher Study Resources</s></li>
+												<li><s>Premium Profile</s></li>
+												<li><s>Online Courses</s></li>
+												<li><s>3D Machines</s></li>
+											</ul>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="col-lg-4 col-md-4 col-sm-4 my-1">
+								<a href="">
+									<div class="card card-animated text-center py-5">
+										
+										<span class="">
+											<img class="img-fluid" src="assets/image/Group 1888.png" >
+										</span>
+										
+										<div class="card-body">
+											<h2 class="card-text" style="color:white;">BASIC</h2>
+											<h4 style="color:orange;">100 BDT/ 6 months </h4>
+
+											<ul class="features" style="color:white;">
+												<li>Academic Files</li>
+												<li>Simple Profile</li>
+												<li>Chat Room Access</li>
+												<li>Job Posting</li>
+												<li>Library Access</li>
+												<li>Higher Study Resources</li>
+												<li>Premium Profile</li>
+												<li>Online Courses</li>
+												<li>3D Machines</li>
+											</ul>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-6 my-1">
+								<a href="">
+									<div class="card card-animated text-center py-5">
+										
+										<span class="">
+											<img class="img-fluid" src="assets/image/Group 1889.png" >
+										</span>
+										
+										<div class="card-body">
+											<h2 class="card-text" style="color:white;">PRO</h2>
+
+											<h4 style="color:orange;">180 BDT/ 12 months </h4>
+
+											<ul class="features" style="color:white;">
+												<li>Academic Files</li>
+												<li>Simple Profile</li>
+												<li>Chat Room Access</li>
+												<li>Job Posting</li>
+												<li>Library Access</li>
+												<li>Higher Study Resources</li>
+												<li>Premium Profile</li>
+												<li>Online Courses</li>
+												<li>3D Machines</li>
+											</ul>
+										</div>
+									</div>
+								</a>
+							</div>
+							
+						</div>
+					</div>
+				</div>
 
 
 

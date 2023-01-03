@@ -26,6 +26,23 @@ html, body {
 
 .custom_navbar .navbar .nav-link ,.custom_navbar .navbar-brand{
   color: white;
+  font-size: large;
+  font-weight: 600;
+  
+}
+
+
+  
+
+.nav-link{
+  text-align: center;
+  
+}
+
+
+.nav-link:hover{
+  color: #2df926 !important;
+  
 }
 .green{
   color: #01B041 !important;
@@ -331,10 +348,21 @@ width: 17rem;
   letter-spacing: 0.02em;
 
   color: #FFFFFF;
-  margin-top: 150px;
+  margin-top: 0px;
   text-shadow: 0px 0px 4px #5E717B;
   z-index: 2;
 }
+
+
+.price-text{
+  color: white;
+}
+
+ul.features{
+  display: inline-block;
+  text-align: left;
+}
+
 .share_link_home{
  background: rgb(1,176,65);
  background: linear-gradient(180deg, rgba(1,176,65,1) 74%, rgba(136,201,70,1) 100%);

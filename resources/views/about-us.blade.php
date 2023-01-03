@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>About-Us</title>
 		<link rel="stylesheet" href="assets/css/login.css">
+		<link rel="stylesheet" href="assets/css/home-cards.css">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/all.min.css">
 	</head>
@@ -301,7 +302,277 @@
 				</div>
 				
 			</div>
-			
+			<!-- <div class='card-background'>
+       			 <div class='cardBg'>
+            <div class='haderTxt'>
+                SITE MANAGEMENT
+            </div>
+            <section class='container'>
+
+            <div class='A_card'>
+                <div class='A_lines' />
+                <div class='A_imgBox'>
+                <img src={Img2}alt="Mobin" />
+                </div>
+                <div class='A_content'>
+                    <div class='A_details'>
+                        <h2>Mobin Mithun<br /><span>Senior UX/UI Designer</span></h2>
+                        <a href=""><img width="80px" src="assets/image/Group 1910.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1913.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1912.png" class="" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class='A_card'>
+                <div class='A_lines' />
+                <div class='A_imgBox'>
+                    <img src={Img1} alt="Nafis" />
+                </div>
+                <div class='A_content'>
+                    <div class='A_details'>
+                        <h2>Musfiqur Rahman Nafis<br /><span>Junior Front-end/Back-end Developer</span></h2>
+                        <a href=""><img width="80px" src="assets/image/Group 1910.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1913.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1912.png" class="" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class='A_card'>
+                <div class='A_lines' />
+                <div class='A_imgBox'>
+                    <div class='card_img A_card-1 fluid'>
+                        <img src={Img3} alt="Shati" />
+                    </div>
+                </div>
+                <div class='A_content'>
+                    <div class='A_details'>
+                        <h2>Shahriar Shatil<br /><span>Junior Front-end/Back-end Developer</span></h2>
+                        <a href=""><img width="80px" src="assets/image/Group 1910.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1913.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1912.png" class="" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class='A_card'>
+                <div class='A_lines' />
+                <div class='A_imgBox'>
+                    <div class='card_img A_card-1 fluid'>
+                        <img src={Img4} alt ="Imroz" />
+                    </div>
+                </div>
+                <div class='A_content'>
+                    <div class='A_details'>
+                        <h2>Md. Towfiq Imroz<br /><span>Junior Front-end/Back-end Developer</span></h2>
+                        <a href=""><img width="80px" src="assets/image/Group 1910.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1913.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1912.png" class="" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+
+            
+            <div class='A_card'>
+                <div class='A_lines' />
+                <div class='A_imgBox'>
+                    <div class='card_img A_card-1 fluid'>
+                        <img src={Img5} alt="Efty" />
+                    </div>
+                </div>
+                <div class='A_content'>
+                    <div class='A_details'>
+                        <h2>Efty Mahmud<br /><span>Junior Front-end/Back-end Developer</span></h2>
+                        <a href=""><img width="80px" src="assets/image/Group 1910.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1913.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1912.png" class="" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+            </section>
+                     
+        </div>
+
+
+                        {/* Co-ordinator section */}
+
+                {/* Batch 2k17 */}
+
+        <div class='cardBg'>
+            <div class='haderTxt'>
+                BOT CO-ORDINATOR (2K17)
+            </div>
+            <section class='container'>
+
+                <div class='A_co-ordinator'>
+                    <div class='A_card'>
+                        <div class='A_lines' />
+                        <div class='A_co-ordinator-imgBox'>
+                            <img src={Img7} alt="Mehedi" />
+                        </div>
+                        <div class='A_co-ordinator-name'>
+                        Ehasanul Hoque Shojib
+                        </div>
+                        <div class='A_co-ordinator-icon'>
+                            <a href=""><img width="80px" src="assets/image/Group 1910.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1913.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1912.png" class="" alt=""></a>
+                        </div>                           
+                    </div>  
+                </div>
+
+                                <div class='A_co-ordinator'>
+                    <div class='A_card'>
+                        <div class='A_lines' />
+                        <div class='A_co-ordinator-imgBox'>
+                        
+                            <img src={Img6} alt="Nafis" />
+                        </div>
+                        <div class='A_co-ordinator-name'>
+                            MEHEDI HASAN
+                        </div>
+                        <div class='A_co-ordinator-icon'>
+                            <a href=""><img width="80px" src="assets/image/Group 1910.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1913.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1912.png" class="" alt=""></a>
+                        </div>                           
+                    </div>  
+                </div>  
+
+                <div class='A_co-ordinator'>
+                    <div class='A_card'>
+                        <div class='A_lines' />
+                        <div class='A_co-ordinator-imgBox'>
+                            <img src={Img8} alt="Nafis" />
+                        </div>
+                        <div class='A_co-ordinator-name'>
+                            MUKITUR RAHMAN
+                        </div>
+                        <div class='A_co-ordinator-icon'>
+                            <a href=""><img width="80px" src="assets/image/Group 1910.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1913.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1912.png" class="" alt=""></a>
+                        </div>                           
+                    </div>  
+                </div>
+                <div class='A_co-ordinator'>
+                    <div class='A_card'>
+                        <div class='A_lines' />
+                        <div class='A_co-ordinator-imgBox'>
+                            <img src={Img13} alt="Nafis" />
+                        </div>
+                        <div class='A_co-ordinator-name'>
+                            AYON PAUL
+                        </div>
+                        <div class='A_co-ordinator-icon'>
+                            <a href=""><img width="80px" src="assets/image/Group 1910.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1913.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1912.png" class="" alt=""></a>
+                        </div>                           
+                    </div>  
+                </div>                                      
+
+            </section>
+
+
+        </div>  
+
+                {/* Batch 2k18 */}
+
+        <div class='cardBg'>
+            <div class='haderTxt'>
+                BOT CO-ORDINATOR (2K18)
+            </div>
+            <section class='container'>
+
+                <div class='A_co-ordinator'>
+                    <div class='A_card'>
+                        <div class='A_lines' />
+                        <div class='A_co-ordinator-imgBox'>
+                            <img src={Img9} alt="Nafis" />
+                        </div>
+                        <div class='A_co-ordinator-name'>
+                            MAHIE ABRAR
+                        </div>
+                        <div class='A_co-ordinator-icon'>
+                            <a href=""><img width="80px" src="assets/image/Group 1910.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1913.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1912.png" class="" alt=""></a>
+                        </div>                           
+                    </div>  
+                </div>
+
+                                <div class='A_co-ordinator'>
+                    <div class='A_card'>
+                        <div class='A_lines' />
+                        <div class='A_co-ordinator-imgBox'>
+                            <img src={Img10} alt="Nafis" />
+                        </div>
+                        <div class='A_co-ordinator-name'>
+                            MOHAIMEEN FARDIN
+                        </div>
+                        <div class='A_co-ordinator-icon'>
+                            <a href=""><img width="80px" src="assets/image/Group 1910.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1913.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1912.png" class="" alt=""></a>
+                        </div>                           
+                    </div>  
+                </div>  
+
+                <div class='A_co-ordinator'>
+                    <div class='A_card'>
+                        <div class='A_lines' />
+                        <div class='A_co-ordinator-imgBox'>
+                            <img src={Img11} alt="Nafis" />
+                        </div>
+                        <div class='A_co-ordinator-name'>
+                            TOUFIQ ZIA
+                        </div>
+                        <div class='A_co-ordinator-icon'>
+                            <a href=""><img width="80px" src="assets/image/Group 1910.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1913.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1912.png" class="" alt=""></a>
+                        </div>                           
+                    </div>  
+                </div>
+                <div class='A_co-ordinator'>
+                    <div class='A_card'>
+                        <div class='A_lines' />
+                        <div class='A_co-ordinator-imgBox'>
+                            <img src={Img12} alt="Nafis" />
+                        </div>
+                        <div class='A_co-ordinator-name'>
+                            MASHRUR MORTUZA
+                        </div>
+                        <div class='A_co-ordinator-icon'>
+                            <a href=""><img width="80px" src="assets/image/Group 1910.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1913.png" class="" alt=""></a>
+						<a href=""><img width="80px" src="assets/image/Group 1912.png" class="" alt=""></a>
+                        </div>                           
+                    </div>  
+                </div>                                      
+
+            </section>
+
+        </div>  
+
+            {/* Line image */}
+            
+            <div class='line-Image-wrapper'>
+                <div class='line' />
+                <div class='line-icon-img' />
+            </div>
+            {/* Line image end */}
+
+        <Footer />
+
+    </div> -->
 		
 				@include('include/footer')
 		

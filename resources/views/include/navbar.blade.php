@@ -30,12 +30,12 @@
 				@guest
 				@if (Route::has('login'))
 				<li class="nav-item px-4 ">
-					<a class="nav-link login " href="{{ route('login') }}">LOGIN</a>
+					<a class="nav-link login ps-3" href="{{ route('login') }}">LOGIN</a>
 				</li>
 				@endif
 				@if (Route::has('register'))
-				<li class="nav-item px-4">
-					<a class="nav-link signup" href="{{ route('register') }}">SIGN UP</a>
+				<li class="nav-item px-4 ">
+					<a class="nav-link signup ps-3" href="{{ route('register') }}">SIGN UP</a>
 				</li>
 				@endif
 				@else
