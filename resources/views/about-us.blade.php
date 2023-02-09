@@ -43,7 +43,7 @@
 								<div class="card card-animated text-center py-5">
 									
 									<span class="card_image">
-										<img class="profile_pic_student_list" height="250px" width="250px"  src="assets/image/Mobin Mithun.jpg" >
+										<img class="profile_pic_student_list pro-pic" height="250px" width="250px"  src="assets/image/Mobin Mithun.jpg" >
 									</span>
 									
 									<div class="card-body">
@@ -62,7 +62,7 @@
 								<div class="card card-animated text-center py-5">
 									
 									<span class="card_image">
-										<img class="profile_pic_student_list" height="250px" width="250px" src="assets/image/shatil.jpg" >
+										<img class="profile_pic_student_list pro-pic" height="250px" width="250px" src="assets/image/shatil.jpg" >
 									</span>
 									
 									<div class="card-body">
@@ -81,7 +81,7 @@
 								<div class="card card-animated text-center py-5">
 									
 									<span class="card_image">
-										<img class="profile_pic_student_list" height="250px" width="250px" src="assets/image/imroz.jpg" >
+										<img class="pro-pic profile_pic_student_list" height="250px" width="250px" src="assets/image/imroz.jpg" >
 									</span>
 									
 									<div class="card-body">
@@ -102,7 +102,7 @@
 								<div class="card card-animated text-center py-5">
 									
 									<span class="card_image">
-										<img class="profile_pic_student_list" height="250px" width="250px" src="assets/image/nafis.jpg" >
+										<img class="profile_pic_student_list pro-pic" height="250px" width="250px" src="assets/image/nafis.jpg" >
 									</span>
 									
 									<div class="card-body">
@@ -123,7 +123,7 @@
 								<div class="card card-animated text-center py-5">
 									
 									<span class="card_image">
-										<img class="profile_pic_student_list" height="250px" width="250px" src="assets/image/efty.jpg" >
+										<img class="profile_pic_student_list pro-pic" height="250px" width="250px" src="assets/image/efty.jpg" >
 									</span>
 									
 									<div class="card-body">
@@ -153,7 +153,7 @@
 								<div class="card card-animated text-center py-5">
 									
 									<span class="card_image">
-										<img class="profile_pic_student_list" height="250px" width="250px" src="assets/image/Mehedi Hasan.jpg" >
+										<img class="profile_pic_student_list pro-pic" height="250px" width="250px" src="assets/image/Mehedi Hasan.jpg" >
 									</span>
 									
 									<div class="card-body">

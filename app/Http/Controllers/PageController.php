@@ -59,6 +59,14 @@ class PageController extends Controller
     {
         return view('about-us');
     }
+    public function course()
+    {
+        return view('course-page');
+    }
+    public function threed()
+    {
+        return view('threed');
+    }
 
     //admin page
     

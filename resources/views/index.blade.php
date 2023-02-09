@@ -16,7 +16,7 @@
 			<section class="section_body container-fluid">
 
 			<!-- Stars -->
-			<section>
+			<section class="staar">
 				<span class='star'></span>
 				<span class='star'></span>
 				<span class='star'></span>
@@ -32,7 +32,7 @@
 			<!-- Star end -->
 						
 				
-				<div class="row py-5">
+				<div class="row bg py-5">
 					<div class="col-lg-2"></div>
 					<div class="col-lg-7 body_text">
 						<h3>KUET  <span class="px-2 tex"> TEX</span><span class='bot'>BOT</span></h3>
@@ -186,8 +186,60 @@
 					</div>
 				</div>
 
+				<div class="new_section pro my-5 container-fluid">
+					<div class="container">
+						<h3 class="text-center pt-5">PRO</h3>
+						<div class="row justify-content-center p-5" id="explore">
+							
+							<div class="col-lg-4 col-md-4 col-sm-4 my-1">
+								<a href="{{ route('courses') }}">
+									<div class="card card-animated text-center py-5">
+										
+										<span class="">
+											<img class="img-fluid" src="assets/image/courses.svg" >
+										</span>
+										
+										<div class="card-body">
+											<p class="card-text">COURSES</p>
+										</div>
+									</div>
+								</a>
+							</div>
+							
+							
+							<div class="col-lg-4 col-md-4 col-sm-4 my-1">
+								<a href="{{ route('threed') }}">
+									<div class="card card-animated text-center py-5">
+										
+										<span class="">
+											<img class="img-fluid" src="assets/image/3d machines.svg" >
+										</span>
+										
+										<div class="card-body">
+											<p class="card-text">3D MACHINES</p>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 my-1">
+								<a href="https://forms.gle/oVooGhZ6dnq56HNq5">
+									<div class="card card-animated text-center py-5">
+										
+										<span class="">
+											<img class="img-fluid" src="assets/image/collab.svg" >
+										</span>
+										
+										<div class="card-body">
+											<p class="card-text">COLLAB</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
 
-				<div class="new_section pricing my-5 container-fluid">
+				<!-- <div class="new_section pricing my-5 container-fluid">
 					<div class="container">
 						<h3 class="text-center pt-5">Pricing</h3>
 						<div class="row justify-content-center p-5" id="academic">
@@ -277,7 +329,7 @@
 							
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 
 

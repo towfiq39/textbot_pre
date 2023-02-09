@@ -27,7 +27,7 @@
 									
 										<div>
 											<a href="">
-												<img class="p-2 profile_pic_student_list" height="250px" width="250px" src="{{ asset('profile/'.$row->profile_picture) }}" >
+												<img class=" img-fluid p-2 profile_pic_student_list pro-pic"  src="{{ asset('profile/'.$row->profile_picture) }}" >
 											</a>
 											
 									

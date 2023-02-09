@@ -81,14 +81,14 @@
 				
 				
 				<div class="row justify-content-around py-5">
-					<div class="col-lg-3 col-md-3 col-sm-12">
+					<div class="pb-2 col-lg-6 col-sm-6 col-12">
 						<h1 class="student_name">@ {{ $user->user_name }}</h1>
 					</div>
 				</div>
 				<div class="row justify-content-center py-5">
 					
-					<div class="col-lg-3 col-md-3 col-sm-8">
-						<img src="{{ asset('profile/'.$user->profile_picture) }} " width="350" height="350" class="p-3 bg-dark profile_pic" alt="">
+					<div class="col-lg-3 col-sm-3 col-10">
+						<img class="pro-pic" src="{{ asset('profile/'.$user->profile_picture) }} " width="350" height="350" class="p-3 bg-dark profile_pic" alt="">
 					</div>
 					
 				</div>
@@ -101,25 +101,25 @@
 					<div class="container my-2">
 						<h3 class="text-center pt-5">DASHBOARD</h3>
 						<div class="row justify-content-center p-3">
-							<div class="col-lg-8">
-								<div class="card p-5">
-									<p class="text-left mb-5">PERSONAL INFORMATION</p>
-									<div class="user_details p-3">
+							<div class="col-lg-8 col-sm-8 col-12">
+								<div class="card">
+									<p class="text-left mb-5 ">PERSONAL INFORMATION</p>
+									<div class="user_details col-lg-12 col-sm-6 col-12">
 										<table class="table">
 											<tr>
-												<th scope="col">User Name :</th>
+												<th scope="col">User Name:</th>
 												<td class="ml-5">{{ $user->user_name }}</td>
 											</tr>
 											<tr>
-												<th scope="col">Email :</th>
+												<th scope="col">Email:</th>
 												<td class="ml-5">{{ $user->email }}</td>
 											</tr>
 											<tr>
-												<th scope="col">Date Of Birth :</th>
+												<th scope="col">Date Of Birth:</th>
 												<td class="ml-5">{{ $user->dob }}</td>
 											</tr>
 											<tr>
-												<th scope="col">Blood Group :</th>
+												<th scope="col">Blood Group:</th>
 												<td class="ml-5">{{ $user->blood_group }}</td>
 											</tr>
 										</table>
@@ -130,10 +130,10 @@
 					</div>
 					<div class="container my-2">
 						<div class="row justify-content-center p-3">
-							<div class="col-lg-8">
-								<div class="card p-5">
+							<div class="col-lg-8 col-sm-8 col-12">
+								<div class="card ">
 									<p class="text-left mb-5">ACADEMIC INFORMATION</p>
-									<div class="user_details p-3">
+									<div class="user_details ">
 										<table class="table">
 											<tr>
 												
@@ -163,25 +163,25 @@
 						</div>
 					</div>
 					<div class="container my-2">
-						<div class="row justify-content-center p-3">
-							<div class="col-lg-8">
-								<div class="card p-5">
-									<p class="text-left mb-5">CONTACT INFORMATION</p>
+						<div class="row justify-content-center ">
+							<div class="col-lg-8 col-sm-8 col-12">
+								<div class="card ">
+									<p class="text-left mb-5 ">CONTACT INFORMATION</p>
 									<div class="user_details p-3">
-										<table class="table">
-											<tr>
+										<table class="table ">
+											<tr class="col-12">
 												<th scope="col">Phone Number :</th>
 												<td class="ml-5">{{ $user->phone }}</td>
 											</tr>
-											<tr>
+											<tr class="col-12">
 												<th scope="col">Facebook ID :</th>
 												<td class="ml-5">{{ $user->facebook_id }}</td>
 											</tr>
-											<tr>
+											<tr class="col-12">
 												<th scope="col">LinkedIn ID :</th>
 												<td class="ml-5">{{ $user->linkedin_id }}</td>
 											</tr>
-											<tr>
+											<tr class="col-12">
 												<th scope="col">Status :</th>
 												<td class="ml-5">{{ $user->status }}</td>
 											</tr>

@@ -53,15 +53,15 @@
 			<section class="section_body container-fluid">
 				
 				
-				<div class="row justify-content-around py-5">
-					<div class="col-lg-3">
+				<div class="row justify-content-center py-5">
+					<div class="col-lg-3 col-sm-3 col-3">
 						<h1 class="student_name">@ {{ $user->user_name }}</h1>
 					</div>
 				</div>
 				<div class="row justify-content-center py-5">
 					
-					<div class="col-lg-3">
-						<img src="{{ asset('profile/'.$user->profile_picture) }} " width="350" height="350" class="p-3 bg-dark profile_pic" alt="">
+					<div class="col-lg-3 col-sm-3 col-10">
+						<img class="img-fluid pro-pic" src="{{ asset('profile/'.$user->profile_picture) }} " width="350" height="350" class="p-3 bg-dark profile_pic" alt="">
 					</div>
 					
 				</div>
@@ -69,20 +69,20 @@
 			</section>
 		</section>
 		<section class="academic_section bg-dark">
-			<div class="p-5">
+			<div class="pb-2">
 				<div class="profile_inner_section slide_section my-5 container-fluid">
 					<div class="container my-2">
 						<h3 class="text-center pt-5">UPDATE PROFILE</h3>
 						<div class="row justify-content-center p-3">
-							<div class="col-lg-8">
+							<div class="col-lg-8 col-sm-8 col-12">
 								<div class="card p-5">
-									<p class="text-left mb-5">PERSONAL INFORMATION</p>
+									<p class="text-left mb-3 fs-6">PERSONAL INFORMATION</p>
 									
-									<div class="user_details p-5">
+									<div class="user_details p-1" >
 										<table class="table">
 											<form method="POST" action="{{ route('update_profile')}}" enctype="multipart/form-data">
 												@csrf
-												<div class="form-group my-3">
+												<div class="form-group my-1">
 													<label for="exampleInputEmail1">User Name</label>
 													<input type="text" name="User_Name" class="form-control"  placeholder="Enter user name"
 													value="<?php if(isset($user->user_name)){echo $user->user_name; } ?>">
@@ -90,22 +90,22 @@
 												</div>
 												@error('User_Name')
 												
-												<div class="alert alert-warning p-2 col-lg-6">
+												<div class="alert alert-warning pb-2 col-lg-6 col-sm-6 col-12">
 													<strong>{{ $message }}</strong>
 												</div>
 												@enderror
-												<div class="form-group my-3">
+												<div class="form-group my-1">
 													<label for="exampleInputEmail1">Date of Birth</label>
 													<input type="date" name="Date_of_Birth" class="form-control"  placeholder="Enter date of birth" value="<?php if(isset($user->dob)){echo $user->dob; } ?>">
 													
 												</div>
 												@error('Date_of_Birth')
 												
-												<div class="alert alert-warning p-2 col-lg-6">
+												<div class="alert alert-warning pb-2 col-lg-6 col-sm-6 col-12">
 													<strong>{{ $message }}</strong>
 												</div>
 												@enderror
-												<div class="form-group my-3">
+												<div class="form-group my-1">
 													<label for="exampleInputEmail1">Blood Group</label>
 													<select name="Blood_Group" class="form-control" >
 														<?php if(isset($user->blood_group)){ ?>
@@ -127,33 +127,33 @@
 												</div>
 												@error('Blood_Group')
 												
-												<div class="alert alert-warning p-2 col-lg-6">
+												<div class="alert alert-warning pb-2 col-lg-6 col-sm-6 col-12">
 													<strong>{{ $message }}</strong>
 												</div>
 												@enderror
-												<div class="form-group my-3">
+												<div class="form-group my-1">
 													<label for="exampleInputEmail1">Certificate Name</label>
 													<input type="text" name="Certificate_Name" class="form-control"  placeholder="Enter Certificate Name" value="<?php if(isset($user->certificate_name)){echo $user->certificate_name; } ?>">
 													
 												</div>
 												@error('Certificate_Name')
 												
-												<div class="alert alert-warning p-2 col-lg-6">
+												<div class="alert alert-warning pb-2 col-lg-6 col-sm-6 col-12">
 													<strong>{{ $message }}</strong>
 												</div>
 												@enderror
-												<div class="form-group my-3">
+												<div class="form-group my-1">
 													<label for="exampleInputEmail1">Roll Number</label>
 													<input type="number" name="Roll" class="form-control"  placeholder="Enter roll Number" value="<?php if(isset($user->roll_number)){echo $user->roll_number; } ?>">
 													
 												</div>
 												@error('Roll')
 												
-												<div class="alert alert-warning p-2 col-lg-6">
+												<div class="alert alert-warning pb-2 col-lg-6 col-sm-6 col-12">
 													<strong>{{ $message }}</strong>
 												</div>
 												@enderror
-												<div class="form-group my-3">
+												<div class="form-group my-1">
 													<label for="exampleInputEmail1">Batch</label>
 													<select name="Batch" class="form-control" >
 														<?php if(isset($user->batch)){ ?>
@@ -179,11 +179,11 @@
 												</div>
 												@error('Batch')
 												
-												<div class="alert alert-warning p-2 col-lg-6">
+												<div class="alert alert-warning pb-2 col-lg-6 col-sm-6 col-12">
 													<strong>{{ $message }}</strong>
 												</div>
 												@enderror
-												<div class="form-group my-3">
+												<div class="form-group my-1">
 													<label for="exampleInputEmail1">Department</label>
 													
 													<select name="Department" class="form-control" >
@@ -215,54 +215,54 @@
 												</div>
 												@error('Department')
 												
-												<div class="alert alert-warning p-2 col-lg-6">
+												<div class="alert alert-warning pb-2 col-lg-6 col-sm-6 col-12">
 													<strong>{{ $message }}</strong>
 												</div>
 												@enderror
-												<div class="form-group my-3">
+												<div class="form-group my-1">
 													<label for="exampleInputEmail1">Institution</label>
 													<input type="text" name="Institute" class="form-control"  placeholder="Enter Institution Name " value="<?php if(isset($user->institution)){echo $user->institution; } ?>">
 													
 												</div>
 												@error('Institute')
 												
-												<div class="alert alert-warning p-2 col-lg-6">
+												<div class="alert alert-warning pb-2 col-lg-6 col-sm-6 col-12">
 													<strong>{{ $message }}</strong>
 												</div>
 												@enderror
-												<div class="form-group my-3">
+												<div class="form-group my-1">
 													<label for="exampleInputEmail1">Phone</label>
 													<input type="text" name="Phone" class="form-control"  placeholder="Enter Phone Number" value="<?php if(isset($user->phone)){echo $user->phone; } ?>">
 													
 												</div>
 												@error('Phone')
 												
-												<div class="alert alert-warning p-2 col-lg-6">
+												<div class="alert alert-warning pb-2 col-lg-6 col-sm-6 col-12">
 													<strong>{{ $message }}</strong>
 												</div>
 												@enderror
-												<div class="form-group my-3">
+												<div class="form-group my-1">
 													<label for="exampleInputEmail1">Facebook Id</label>
 													<input type="text" name="facebook_id" class="form-control"  placeholder="Enter facebook Link " value="<?php if(isset($user->facebook_id)){echo $user->facebook_id; } ?>">
 													
 												</div>
-												<div class="form-group my-3">
+												<div class="form-group my-1">
 													<label for="exampleInputEmail1">LinkedIn ID</label>
 													<input type="text" name="linkedin_id" class="form-control"  placeholder="Enter Linked In Link " value="<?php if(isset($user->linkedin_id)){echo $user->linkedin_id; } ?>">
 													
 												</div>
-												<div class="form-group my-3">
+												<div class="form-group my-1">
 													<label for="exampleInputEmail1">Status</label>
 													<input type="text" name="Status" class="form-control"  placeholder="Enter Status " value="<?php if(isset($user->status)){echo $user->status; } ?>">
 													
 												</div>
 												@error('Status')
 												
-												<div class="alert alert-warning p-2 col-lg-6">
+												<div class="alert alert-warning pb-2 col-lg-6 col-sm-6 col-12">
 													<strong>{{ $message }}</strong>
 												</div>
 												@enderror
-												<div class="form-group my-3">
+												<div class="form-group my-1">
 													<label for="exampleInputEmail1">Profile Picture</label><br>
 													<img src="{{ asset('profile/'.$user->profile_picture) }}" class="img-thumbnail" width="200" height="200" alt="">
 													<input type="file" name="Profile_Picure" class="form-control"  placeholder="Profile Picture ">

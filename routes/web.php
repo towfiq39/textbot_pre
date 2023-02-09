@@ -37,6 +37,8 @@ Route::get('slide-page', [App\Http\Controllers\PageController::class, 'slide_pag
 //notepage
 Route::get('notes-page', [App\Http\Controllers\PageController::class, 'notes_page'])->name('notes_page');
 
+
+
 //crdrives
 Route::get('recent-drive', [App\Http\Controllers\PageController::class, 'recent_drives_page'])->name('recent_drives_page');
 
@@ -48,6 +50,12 @@ Route::get('under-construction', [App\Http\Controllers\PageController::class, 'u
 
 //about us
 Route::get('about-us', [App\Http\Controllers\PageController::class, 'about_us'])->name('about_us');
+
+//coursepage
+Route::get('/course', [App\Http\Controllers\PageController::class, 'course'])->name('courses');
+
+//3DMachinesPage
+Route::get('/threed', [App\Http\Controllers\PageController::class, 'threed'])->name('threed');
 
 
 
