@@ -224,6 +224,8 @@ margin-top: 9px;
     color:#FFDC00;
     line-height: 60px;
 }
+
+
 .body_text button{
   background: transparent;
   border: 1px solid #FFDC00;
@@ -802,11 +804,16 @@ border-radius: 10px;
 }
 .share_link_section h2{
   font-size: 15px;
-  
-
   text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.5);
 }
+
+.academic_resource{
+  font-size: 25px;
 }
+
+}
+
+
 @media screen and (max-width: 768px) {
   .custom_image{
     opacity:0;
@@ -844,6 +851,11 @@ border-radius: 10px;
   text-align: right !important;
   margin-top: -140px;
 }
+
+.academic_resource{
+  font-size: 25px;
+}
+
 }
 @media screen and (max-width: 1020px) {
   .custom_image{

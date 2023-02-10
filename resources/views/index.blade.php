@@ -37,7 +37,7 @@
 					<div class="col-lg-7 body_text">
 						<h3>KUET  <span class="px-2 tex"> TEX</span><span class='bot'>BOT</span></h3>
 						<h1>WE HELP YOU EXPLORE</h1>
-						<h1>THE <span class="academic_resource mx-2"> ACADEMIC RESOURCES</span></h1>
+						<h1>THE <span class="academic_resource mx-2">ACADEMIC  RESOURCES</span></h1>
 						<button class="mt-5" href="{{ route('about_us') }}"><span>MORE ABOUT US</span></button>
 						
 					</div>
@@ -49,6 +49,9 @@
 				
 			</section>
 		</section>
+
+
+		
 		<section class="academic_section bg-dark">
 			<div class="p-5">
 				<div class="new_section academic my-5 container-fluid">
@@ -154,7 +157,7 @@
 								</a>
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-6 my-1">
-								<a href="{{ route('under_construction') }}">
+								<a href="https://www.textileinstitute.org/">
 									<div class="card card-animated text-center py-5">
 										
 										<span class="">
@@ -169,7 +172,7 @@
 							</div>
 							
 							<div class="col-lg-3 col-md-6 col-sm-6 my-1">
-								<a href="{{ route('under_construction') }}">
+								<a href="https://www.facebook.com/kuet.textile.club">
 									<div class="card card-animated text-center py-5">
 										
 										<span class="">
